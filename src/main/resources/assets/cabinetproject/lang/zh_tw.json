@@ -1,0 +1,12 @@
+{
+  "block.cabinetproject.cabinet_block":"櫃子方塊",
+  "item.cabinetproject.wood_ingot":"木錠",
+  "item.cabinetproject.rusty_iron_ingot":"生鏽鐵錠",
+  "item.cabinetproject.forged_iron_ingot":"鍛造鐵錠",
+  "item.cabinetproject.iron_oxide_ingot":"氧化鐵錠",
+  "block.cabinetproject.forged_iron_block":"鍛造鐵錠塊",
+  "block.cabinetproject.iron_oxide_block":"氧化鐵錠塊",
+  "block.cabinetproject.rusty_iron_block":"生鏽鐵錠塊",
+  "item.cabinetproject.bark":"樹皮",
+  "item.cabinetproject.moss":"苔蘚"
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cabinetproject:block/cabinet_block_model" }
+  }
+}
