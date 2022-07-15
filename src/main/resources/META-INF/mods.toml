@@ -38,7 +38,7 @@ description='''
 
 各位玩得开心!
 感谢Java和Forge与Minecraft
-来自LJJ Studios开发组 2022.07.15update
+来自LJJ Studios开发组 2022.07.16update
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.cabinetproject]] #optional
