@@ -8,5 +8,7 @@
   "block.cabinetproject.iron_oxide_block":"Iron Oxide Block",
   "block.cabinetproject.rusty_iron_block":"Rusty Iron Block",
   "item.cabinetproject.bark":"Bark",
-  "item.cabinetproject.moss":"Moss"
+  "item.cabinetproject.moss":"Moss",
+  "item.cabinetproject.sawdust":"Sawdust",
+  "item.cabinetproject.coal_powder":"Coal Powder"
 }

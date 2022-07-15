@@ -1,8 +1,6 @@
 package com.LJJStudios.cabinetproject.Item;
 
 import com.LJJStudios.cabinetproject.Block.BlockRegistry;
-import com.LJJStudios.cabinetproject.Food.Bark;
-import com.LJJStudios.cabinetproject.Food.Moss;
 import com.LJJStudios.cabinetproject.Utils;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -22,5 +20,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> IronOxideBlock = ITEMS.register("iron_oxide_block", () -> new BlockItem(BlockRegistry.IronOxideBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> Bark = ITEMS.register("bark", Bark::new);
+    public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", Sawdust::new);
     public static final RegistryObject<Item> Moss = ITEMS.register("moss", Moss::new);
+    public static final RegistryObject<Item> CoalPowder = ITEMS.register("coal_powder", CoalPowder::new);
 }

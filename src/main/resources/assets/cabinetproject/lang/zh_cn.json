@@ -8,5 +8,7 @@
   "block.cabinetproject.iron_oxide_block":"氧化铁锭块",
   "block.cabinetproject.rusty_iron_block":"生锈铁锭块",
   "item.cabinetproject.bark":"树皮",
-  "item.cabinetproject.moss":"苔藓"
+  "item.cabinetproject.moss":"苔藓",
+  "item.cabinetproject.sawdust":"木屑",
+  "item.cabinetproject.coal_powder":"煤炭粉末"
 }
