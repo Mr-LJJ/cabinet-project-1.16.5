@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#CC",
+    "#X#",
     "###"
   ],
   "key": {
-    "C": {
+    "#": {
       "item": "minecraft:coal"
     }
   },
