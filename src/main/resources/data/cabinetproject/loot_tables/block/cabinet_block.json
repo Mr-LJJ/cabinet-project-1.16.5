@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cabinetproject:cabinet_block"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "cabinetproject:cabinet_block"
+        }
+      ]
+    }
+  ]
+}

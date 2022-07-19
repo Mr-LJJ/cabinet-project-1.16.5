@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cabinetproject:block/cabinet_block_texture"
+  }
+}

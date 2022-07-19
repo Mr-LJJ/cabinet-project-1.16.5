@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#W#",
+    "#I#"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "cabinetproject:rusty_iron_ingot",
+    "count": 1
+  }
+}

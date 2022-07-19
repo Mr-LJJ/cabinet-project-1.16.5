@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#CC",
+    "###"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "cabinetproject:coal_power",
+    "count": 4
+  }
+}

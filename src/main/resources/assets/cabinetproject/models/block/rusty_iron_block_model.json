@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cabinetproject:block/rusty_iron_block_texture"
+  }
+}
