@@ -12,6 +12,7 @@ public class Moss extends Item{
             .nutrition(1)
             .effect(() -> new EffectInstance(Effects.POISON, 5 * 20, 1), 1)
             .effect(() -> new EffectInstance(Effects.BLINDNESS, 10 * 20, 1), 1)
+            .alwaysEat()
             .build();
 
     public Moss() {

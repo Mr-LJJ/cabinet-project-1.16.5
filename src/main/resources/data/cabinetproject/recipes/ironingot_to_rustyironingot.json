@@ -7,12 +7,12 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:water_bucket"
+      "item": "forge:water_bucket"
     }
   },
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "item": "forge:iron_ingot"
     }
   },
   "result": {

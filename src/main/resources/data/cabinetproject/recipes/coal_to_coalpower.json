@@ -1,15 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:coal"
     }
-  },
+  ],
   "result": {
     "item": "cabinetproject:coal_power",
     "count": 4
