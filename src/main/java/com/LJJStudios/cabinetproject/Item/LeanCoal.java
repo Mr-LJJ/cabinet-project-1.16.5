@@ -1,2 +1,8 @@
-package com.LJJStudios.cabinetproject.Item;public class LeanCoal {
+package com.LJJStudios.cabinetproject.Item;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+
+public class LeanCoal extends Item {
+    public LeanCoal(){ super(new Properties().tab(ItemGroup.TAB_MISC));}
 }

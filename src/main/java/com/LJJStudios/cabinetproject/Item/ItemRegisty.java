@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemRegisty {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
     public static final RegistryObject<Item> WoodIngot = ITEMS.register("wood_ingot", WoodIngot::new);
+    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", LeanCoal::new);
     public static final RegistryObject<Item> ForgedIronIngot = ITEMS.register("forged_iron_ingot", ForgedIronIngot::new);
     public static final RegistryObject<Item> IronOxideIngot = ITEMS.register("iron_oxide_ingot", IronOxideIngot::new);
     public static final RegistryObject<Item> RustyIronIngot = ITEMS.register("rusty_iron_ingot", RustyIronIngot::new);

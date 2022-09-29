@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:coal",
+    "cabinetproject:coal",
+    {
+      "id": "cabinetproject:coal",
+      "required": false
+    }
+  ]
+}

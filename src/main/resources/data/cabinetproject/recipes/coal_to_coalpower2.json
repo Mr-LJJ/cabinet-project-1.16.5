@@ -5,9 +5,9 @@
     "#BB",
     "#BB"
   ],
-  "key": {
+  "tag": {
     "B": {
-      "item": "cabinetproject:lean_coal"
+      "key": "cabinetproject:coal"
     }
   },
   "result": {
