@@ -2,16 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "###",
-    "###"
+    "#S#",
+    "#W#"
   ],
   "key": {
-    "B": {
-      "item": "minecraft:"
+    "W": {
+      "item": "minecraft:wood"
+    }
+  },
+  "key": {
+    "S": {
+      "item": "cabinetproject:iron_saw"
     }
   },
   "result": {
-    "item": "cabinetproject:coal_power",
-    "count": 1
+    "item": "cabinetproject:saw_dust",
+    "count": 4
   }
 }

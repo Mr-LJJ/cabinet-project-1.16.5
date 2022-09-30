@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " H ",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "cabinetproject:lean_coal"
+    }
+  },
+  "key": {
+    "H": {
+      "item": "cabinetproject:small_hammer"
+    }
+  },
+  "result": {
+    "item": "cabinetproject:coal_powder",
+    "count": 4
+  }
+}

@@ -1,4 +1,4 @@
-package com.LJJStudios.cabinetproject.Item;
+package com.LJJStudios.cabinetproject.Item.foods;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;

@@ -1,6 +1,7 @@
 package com.LJJStudios.cabinetproject.Item;
 
 import com.LJJStudios.cabinetproject.Block.BlockRegistry;
+import com.LJJStudios.cabinetproject.Item.tools.IronSaw;
 import com.LJJStudios.cabinetproject.Utils;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -11,17 +12,19 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemRegisty {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
-    public static final RegistryObject<Item> WoodIngot = ITEMS.register("wood_ingot", WoodIngot::new);
-    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", LeanCoal::new);
-    public static final RegistryObject<Item> ForgedIronIngot = ITEMS.register("forged_iron_ingot", ForgedIronIngot::new);
-    public static final RegistryObject<Item> IronOxideIngot = ITEMS.register("iron_oxide_ingot", IronOxideIngot::new);
-    public static final RegistryObject<Item> RustyIronIngot = ITEMS.register("rusty_iron_ingot", RustyIronIngot::new);
+    public static final RegistryObject<Item> WoodIngot = ITEMS.register("wood_ingot", com.LJJStudios.cabinetproject.Item.ingots.WoodIngot::new);
+    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", com.LJJStudios.cabinetproject.Item.ingots.LeanCoal::new);
+    public static final RegistryObject<Item> ForgedIronIngot = ITEMS.register("forged_iron_ingot", com.LJJStudios.cabinetproject.Item.ingots.ForgedIronIngot::new);
+    public static final RegistryObject<Item> IronOxideIngot = ITEMS.register("iron_oxide_ingot", com.LJJStudios.cabinetproject.Item.ingots.IronOxideIngot::new);
+    public static final RegistryObject<Item> RustyIronIngot = ITEMS.register("rusty_iron_ingot", com.LJJStudios.cabinetproject.Item.ingots.RustyIronIngot::new);
     public static final RegistryObject<Item> CabinetBlock = ITEMS.register("cabinet_block", () -> new BlockItem(BlockRegistry.CabinetBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> IronOxideBlock = ITEMS.register("iron_oxide_block", () -> new BlockItem(BlockRegistry.IronOxideBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<Item> Bark = ITEMS.register("bark", Bark::new);
-    public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", Sawdust::new);
-    public static final RegistryObject<Item> Moss = ITEMS.register("moss", Moss::new);
-    public static final RegistryObject<Item> CoalPowder = ITEMS.register("coal_powder", CoalPowder::new);
+    public static final RegistryObject<Item> Bark = ITEMS.register("bark", com.LJJStudios.cabinetproject.Item.foods.Bark::new);
+    public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", com.LJJStudios.cabinetproject.Item.foods.Sawdust::new);
+    public static final RegistryObject<Item> Moss = ITEMS.register("moss", com.LJJStudios.cabinetproject.Item.foods.Moss::new);
+    public static final RegistryObject<Item> CoalPowder = ITEMS.register("coal_powder", com.LJJStudios.cabinetproject.Item.foods.CoalPowder::new);
+    public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
+    public static final RegistryObject<Item> WoodSaw = ITEMS.register("wood_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);
 }

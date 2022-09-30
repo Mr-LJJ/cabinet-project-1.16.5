@@ -11,5 +11,7 @@
   "item.cabinetproject.bark":"Bark",
   "item.cabinetproject.moss":"Moss",
   "item.cabinetproject.sawdust":"Sawdust",
-  "item.cabinetproject.coal_powder":"Coal Powder"
+  "item.cabinetproject.coal_powder":"Coal Powder",
+  "item.cabinetproject.small_hammer":"Small Hammer",
+  "item.cabinetproject.iron_saw":"Iron Saw"
 }

@@ -1,4 +1,4 @@
-package com.LJJStudios.cabinetproject.Item;
+package com.LJJStudios.cabinetproject.Item.ingots;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
