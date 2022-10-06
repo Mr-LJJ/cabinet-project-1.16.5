@@ -24,6 +24,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Bark = ITEMS.register("bark", com.LJJStudios.cabinetproject.Item.foods.Bark::new);
     public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", com.LJJStudios.cabinetproject.Item.foods.Sawdust::new);
     public static final RegistryObject<Item> Moss = ITEMS.register("moss", com.LJJStudios.cabinetproject.Item.foods.Moss::new);
+    public static final RegistryObject<Item> PoisonApple = ITEMS.register("poison_apple", com.LJJStudios.cabinetproject.Item.foods.PoisonApple::new);
     public static final RegistryObject<Item> CoalPowder = ITEMS.register("coal_powder", com.LJJStudios.cabinetproject.Item.foods.CoalPowder::new);
     public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);
