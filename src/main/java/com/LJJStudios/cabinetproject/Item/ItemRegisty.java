@@ -28,4 +28,5 @@ public class ItemRegisty {
     public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);
     public static final RegistryObject<Item> ScrewDriver = ITEMS.register("screw_driver", com.LJJStudios.cabinetproject.Item.tools.ScrewDriver::new);
+    public static final RegistryObject<Item> Wrench = ITEMS.register("wrench", com.LJJStudios.cabinetproject.Item.tools.Wrench::new);
 }
