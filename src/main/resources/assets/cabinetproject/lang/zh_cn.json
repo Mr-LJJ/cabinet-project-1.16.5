@@ -5,9 +5,14 @@
   "item.cabinetproject.lean_coal":"贫煤",
   "item.cabinetproject.forged_iron_ingot":"锻造铁锭",
   "item.cabinetproject.iron_oxide_ingot":"氧化铁锭",
+  "item.cabinetproject.stick":"木棒",
+
   "block.cabinetproject.forged_iron_block":"锻造铁锭块",
   "block.cabinetproject.iron_oxide_block":"氧化铁锭块",
   "block.cabinetproject.rusty_iron_block":"生锈铁锭块",
+  "block.cabinetproject.wood":"木块",
+
+
   "item.cabinetproject.bark":"树皮",
   "item.cabinetproject.moss":"苔藓",
   "item.cabinetproject.sawdust":"木屑",

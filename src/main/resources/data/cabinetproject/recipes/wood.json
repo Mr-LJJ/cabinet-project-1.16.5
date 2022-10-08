@@ -14,12 +14,12 @@
     },
     "W":
     {
-      "item": "cabinetproject:wood_ingot"
+      "item": "minecraft:oak_wood"
     }
   },
   "result":
   {
-    "item": "cabinetproject:sawdust",
-    "count": 9
+    "item": "cabinetproject:wood",
+    "count": 2
   }
 }

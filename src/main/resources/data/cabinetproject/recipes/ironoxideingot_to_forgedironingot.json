@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "cabinetproject:iron_oxide_ingot",
-  },
-  "result": "cabinetproject:forged_iron_ingot",
-  "experience": 0.35,
-  "cookingtime": 200
-}

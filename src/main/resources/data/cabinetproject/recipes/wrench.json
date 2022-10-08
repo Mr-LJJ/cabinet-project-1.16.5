@@ -2,24 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "  S",
-    " SI",
-    "SII"
+    "III",
+    " I ",
+    "I  "
   ],
   "key":
   {
     "I":
     {
       "item": "cabinetproject:forged_iron_ingot"
-    },
-    "S":
-    {
-      "item": "cabinetproject:stick"
     }
   },
   "result":
   {
-    "item": "cabinetproject:iron_saw",
+    "item": "cabinetproject:wrench",
     "count": 1
   }
 }

@@ -5,9 +5,11 @@
   "item.cabinetproject.rusty_iron_ingot":"生鏽鐵錠",
   "item.cabinetproject.forged_iron_ingot":"鍛造鐵錠",
   "item.cabinetproject.iron_oxide_ingot":"氧化鐵錠",
+  "item.cabinetproject.stick":"木棒",
   "block.cabinetproject.forged_iron_block":"鍛造鐵錠塊",
   "block.cabinetproject.iron_oxide_block":"氧化鐵錠塊",
   "block.cabinetproject.rusty_iron_block":"生鏽鐵錠塊",
+  "block.cabinetproject.wood":"木塊",
   "item.cabinetproject.bark":"樹皮",
   "item.cabinetproject.moss":"苔蘚",
   "item.cabinetproject.sawdust":"木屑",
@@ -15,5 +17,6 @@
   "item.cabinetproject.small_hammer":"小錘子",
   "item.cabinetproject.iron_saw":"鋸子",
   "item.cabinetproject.screw_driver":"螺絲刀",
-  "item.cabinetproject.wrench":"扳手"
+  "item.cabinetproject.wrench":"扳手",
+  "item.cabinetproject.poison_apple":"毒苹果"
 }

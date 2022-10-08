@@ -14,12 +14,12 @@
     },
     "W":
     {
-      "item": "cabinetproject:wood_ingot"
+      "item": "cabinetproject:wood"
     }
   },
   "result":
   {
-    "item": "cabinetproject:sawdust",
-    "count": 9
+    "item": "cabinetproject:wood_ingot",
+    "count": 2
   }
 }
