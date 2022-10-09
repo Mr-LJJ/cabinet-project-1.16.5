@@ -6,8 +6,8 @@ import net.minecraft.item.ItemGroup;
 
 public class Potato extends Item{
     public static final Food food = (new Food.Builder())
-            .saturationMod(30)
-            .nutrition(3)
+            .saturationMod(10)
+            .nutrition(4)
             .build();
 
     public Potato() {
