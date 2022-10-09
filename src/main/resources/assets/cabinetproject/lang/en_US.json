@@ -1,4 +1,5 @@
 {
+  "itemGroup.cabinet_project_group": "Cabinet Project",
   "block.cabinetproject.cabinet_block":"Cabinet Block",
   "item.cabinetproject.wood_ingot":"Wood Ingot",
   "item.cabinetproject.lean_coal":"Lean Coal",
@@ -6,6 +7,7 @@
   "item.cabinetproject.forged_iron_ingot":"Forged Iron Ingot",
   "item.cabinetproject.iron_oxide_ingot":"Iron Oxide Ingot",
   "item.cabinetproject.stick":"Stick",
+  "item.cabinetproject.iron_rod": "Iron Rod",
   "block.cabinetproject.forged_iron_block":"Forged Iron Block",
   "block.cabinetproject.iron_oxide_block":"Iron Oxide Block",
   "block.cabinetproject.rusty_iron_block":"Rusty Iron Block",
@@ -18,5 +20,6 @@
   "item.cabinetproject.iron_saw":"Iron Saw",
   "item.cabinetproject.screw_driver":"Screw Driver",
   "item.cabinetproject.wrench":"Wrench",
-  "item.cabinetproject.poison_apple":"Poison Apple"
+  "item.cabinetproject.poison_apple":"Poison Apple",
+  "item.cabinetproject.potato":"Potato Chip"
 }

@@ -1,4 +1,5 @@
 {
+  "itemGroup.cabinet_project_group": "櫃子工程",
   "block.cabinetproject.cabinet_block":"櫃子方塊",
   "item.cabinetproject.wood_ingot":"木錠",
   "item.cabinetproject.lean_coal":"貧煤",
@@ -6,6 +7,7 @@
   "item.cabinetproject.forged_iron_ingot":"鍛造鐵錠",
   "item.cabinetproject.iron_oxide_ingot":"氧化鐵錠",
   "item.cabinetproject.stick":"木棒",
+  "item.cabinetproject.iron_rod": "鐵棒",
   "block.cabinetproject.forged_iron_block":"鍛造鐵錠塊",
   "block.cabinetproject.iron_oxide_block":"氧化鐵錠塊",
   "block.cabinetproject.rusty_iron_block":"生鏽鐵錠塊",
@@ -18,5 +20,6 @@
   "item.cabinetproject.iron_saw":"鋸子",
   "item.cabinetproject.screw_driver":"螺絲刀",
   "item.cabinetproject.wrench":"扳手",
-  "item.cabinetproject.poison_apple":"毒苹果"
+  "item.cabinetproject.poison_apple":"毒苹果",
+  "item.cabinetproject.potato":"薯片"
 }

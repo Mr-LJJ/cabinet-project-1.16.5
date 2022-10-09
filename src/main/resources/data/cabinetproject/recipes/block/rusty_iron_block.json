@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "cabinetproject:rusty_iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:rusty_iron_block",
+    "count": 1
+  }
+}
