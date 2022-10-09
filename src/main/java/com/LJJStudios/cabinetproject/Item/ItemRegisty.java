@@ -23,6 +23,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> Wood = ITEMS.register("wood", () -> new BlockItem(BlockRegistry.Wood.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> Leaves = ITEMS.register("leaves", () -> new BlockItem(BlockRegistry.Leaves.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 
     public static final RegistryObject<Item> Bark = ITEMS.register("bark", com.LJJStudios.cabinetproject.Item.foods.Bark::new);
     public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", com.LJJStudios.cabinetproject.Item.foods.Sawdust::new);

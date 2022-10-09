@@ -13,5 +13,6 @@ public class BlockRegistry {
     public static final RegistryObject<Block> ForgedIronBlock = BLOCKS.register("forged_iron_block" , com.LJJStudios.cabinetproject.Block.Metal.ForgedIronBlock::new);
     public static final RegistryObject<Block> RustyIronBlock = BLOCKS.register("rusty_iron_block" , com.LJJStudios.cabinetproject.Block.Metal.RustyIronBlock::new);
     public static final RegistryObject<Block> Wood = BLOCKS.register("wood" , com.LJJStudios.cabinetproject.Block.Wood.Wood::new);
+    public static final RegistryObject<Block> Leaves = BLOCKS.register("leaves" , com.LJJStudios.cabinetproject.Block.Wood.Leaves::new);
 
 }
