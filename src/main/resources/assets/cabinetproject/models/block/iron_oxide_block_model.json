@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cabinetproject:block/iron_oxide_block_texture"
-  }
-}

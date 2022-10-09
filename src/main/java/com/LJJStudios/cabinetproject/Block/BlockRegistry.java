@@ -11,7 +11,6 @@ public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Utils.MOD_ID);
     public static final RegistryObject<Block> CabinetBlock = BLOCKS.register( "cabinet_block" , com.LJJStudios.cabinetproject.Block.Metal.CabinetBlock::new);
     public static final RegistryObject<Block> ForgedIronBlock = BLOCKS.register("forged_iron_block" , com.LJJStudios.cabinetproject.Block.Metal.ForgedIronBlock::new);
-    public static final RegistryObject<Block> IronOxideBlock = BLOCKS.register("iron_oxide_block" , com.LJJStudios.cabinetproject.Block.Metal.IronOxideBlock::new);
     public static final RegistryObject<Block> RustyIronBlock = BLOCKS.register("rusty_iron_block" , com.LJJStudios.cabinetproject.Block.Metal.RustyIronBlock::new);
     public static final RegistryObject<Block> Wood = BLOCKS.register("wood" , com.LJJStudios.cabinetproject.Block.Wood.Wood::new);
 

@@ -1,5 +1,6 @@
 package com.LJJStudios.cabinetproject.Item.foods;
 
+import com.LJJStudios.cabinetproject.Group.ModGroup;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,6 +16,6 @@ public class Bark extends Item {
             .effect(() -> new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 10 * 20, 1), 1)
             .build();
     public Bark() {
-        super(new Properties().food(food).tab(ItemGroup.TAB_FOOD));
+        super(new Properties().food(food).tab(ModGroup.ITEM_GROUP));
     }
 }

@@ -1,5 +1,6 @@
 package com.LJJStudios.cabinetproject.Item.foods;
 
+import com.LJJStudios.cabinetproject.Group.ModGroup;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,6 +15,6 @@ public class CoalPowder extends Item{
             .build();
 
     public CoalPowder() {
-        super(new Item.Properties().food(food).tab(ItemGroup.TAB_FOOD));
+        super(new Item.Properties().food(food).tab(ModGroup.ITEM_GROUP));
     }
 }
