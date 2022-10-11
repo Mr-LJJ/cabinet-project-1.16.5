@@ -19,13 +19,13 @@ public class ItemRegisty {
     public static final RegistryObject<Item> CopperIngot = ITEMS.register("copper_ingot" , com.LJJStudios.cabinetproject.Item.ingots.CopperIngot::new);
     public static final RegistryObject<Item> PigIronIngot = ITEMS.register("pig_iron_ingot" , com.LJJStudios.cabinetproject.Item.ingots.PigIronIngot::new);
     public static final RegistryObject<Item> StainlessSteelIngot = ITEMS.register("stainless_steel_ingot" , com.LJJStudios.cabinetproject.Item.ingots.StainlessSteelIngot::new);
+
+
     public static final RegistryObject<Item> CopperRod = ITEMS.register("copper_rod" , com.LJJStudios.cabinetproject.Item.Item.CopperRod::new);
     public static final RegistryObject<Item> CopperScrew = ITEMS.register("copper_screw" , com.LJJStudios.cabinetproject.Item.Item.CopperScrew::new);
     public static final RegistryObject<Item> ExpansionScrew = ITEMS.register("expansion_screw" , com.LJJStudios.cabinetproject.Item.Item.ExpansionScrew::new);
     public static final RegistryObject<Item> IronScrew = ITEMS.register("iron_screw" , com.LJJStudios.cabinetproject.Item.Item.IronScrew::new);
     public static final RegistryObject<Item> ScrewNut = ITEMS.register("screw_nut" , ScrewNut::new);
-
-
     public static final RegistryObject<Item> Stick = ITEMS.register("stick", com.LJJStudios.cabinetproject.Item.Item.Stick::new);
     public static final RegistryObject<Item> IronRod = ITEMS.register("iron_rod", com.LJJStudios.cabinetproject.Item.Item.IronRod::new);
 
@@ -42,6 +42,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> PoisonApple = ITEMS.register("poison_apple", com.LJJStudios.cabinetproject.Item.foods.PoisonApple::new);
     public static final RegistryObject<Item> Potato = ITEMS.register("potato" , com.LJJStudios.cabinetproject.Item.foods.Potato::new);
     public static final RegistryObject<Item> CoalPowder = ITEMS.register("coal_powder", com.LJJStudios.cabinetproject.Item.foods.CoalPowder::new);
+    public static final RegistryObject<Item> PotatoUbi = ITEMS.register("potato_ubi", com.LJJStudios.cabinetproject.Item.foods.PotatoUbi::new);
 
     public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);

@@ -5,5 +5,5 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
 public class IronSaw extends Item {
-    public IronSaw(){ super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public IronSaw(){ super((new Properties().tab(ModGroup.ITEM_GROUP)));}
 }
