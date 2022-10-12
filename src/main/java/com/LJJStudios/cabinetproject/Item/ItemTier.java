@@ -2,7 +2,6 @@ package com.LJJStudios.cabinetproject.Item;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
-import org.apache.commons.lang3.ObjectUtils;
 
 public enum ItemTier implements IItemTier {
     CABINET(3,2000,10.0f,4.0f,30);
