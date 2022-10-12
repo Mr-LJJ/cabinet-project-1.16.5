@@ -35,5 +35,10 @@
   "item.cabinetproject.small_hammer":"小锤子",
   "item.cabinetproject.iron_saw":"锯子",
   "item.cabinetproject.screw_driver":"螺丝刀",
-  "item.cabinetproject.wrench":"扳手"
+  "item.cabinetproject.wrench":"扳手",
+  "item.cabinetproject.crowbar":"撬棍",
+  "item.cabinetproject.pliers":"钳子",
+  "item.cabinetproject.scissors":"剪刀",
+  "item.cabinetproject.kitchen_knife":"菜刀",
+  "item.cabinetproject.knife":"刀"
 }

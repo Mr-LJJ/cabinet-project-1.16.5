@@ -4,6 +4,6 @@ import com.LJJStudios.cabinetproject.Group.ModGroup;
 import com.LJJStudios.cabinetproject.Item.ItemTier;
 import net.minecraft.item.SwordItem;
 
-public class Wrench extends SwordItem {
-    public Wrench(){ super(ItemTier.CABINET,3,2.4f,new Properties().tab(ModGroup.ITEM_GROUP));}
+public class Pliers extends SwordItem {
+    public Pliers(){ super(ItemTier.CABINET,1,1f,new Properties().tab(ModGroup.ITEM_GROUP));}
 }

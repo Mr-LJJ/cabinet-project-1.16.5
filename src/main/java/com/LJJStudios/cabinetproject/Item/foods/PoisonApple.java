@@ -10,7 +10,7 @@ import net.minecraft.potion.Effects;
 public class PoisonApple extends Item{
     public static final Food food = (new Food.Builder())
             .saturationMod(10)
-            .nutrition(1)
+            .nutrition(2)
             .effect(() -> new EffectInstance(Effects.POISON, 5 * 20, 1), 1)
             .build();
 

@@ -48,4 +48,9 @@ public class ItemRegisty {
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);
     public static final RegistryObject<Item> ScrewDriver = ITEMS.register("screw_driver", com.LJJStudios.cabinetproject.Item.tools.ScrewDriver::new);
     public static final RegistryObject<Item> Wrench = ITEMS.register("wrench", com.LJJStudios.cabinetproject.Item.tools.Wrench::new);
+    public static final RegistryObject<Item> Crowbar = ITEMS.register("crowbar", com.LJJStudios.cabinetproject.Item.tools.Crowbar::new);
+    public static final RegistryObject<Item> Pliers = ITEMS.register("pliers", com.LJJStudios.cabinetproject.Item.tools.Pliers::new);
+    public static final RegistryObject<Item> Scissors = ITEMS.register("scissors", com.LJJStudios.cabinetproject.Item.tools.Scissors::new);
+    public static final RegistryObject<Item> KitchenKnife = ITEMS.register("kitchen_knife", com.LJJStudios.cabinetproject.Item.tools.KitchenKnife::new);
+    public static final RegistryObject<Item> Knife = ITEMS.register("knife", com.LJJStudios.cabinetproject.Item.tools.Knife::new);
 }

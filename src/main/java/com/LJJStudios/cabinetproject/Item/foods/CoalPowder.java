@@ -9,7 +9,7 @@ import net.minecraft.potion.Effects;
 
 public class CoalPowder extends Item{
     public static final Food food = (new Food.Builder())
-            .saturationMod(5)
+            .saturationMod(10)
             .nutrition(1)
             .effect(() -> new EffectInstance(Effects.HEAL , 5 * 20, 1), 1)
             .build();
