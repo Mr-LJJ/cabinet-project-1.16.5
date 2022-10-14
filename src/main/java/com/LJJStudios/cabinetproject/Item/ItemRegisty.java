@@ -57,7 +57,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Toufu = ITEMS.register("toufu" , com.LJJStudios.cabinetproject.Item.foods.Toufu::new);
 
     public static final RegistryObject<Item> Flour = ITEMS.register("flour" , com.LJJStudios.cabinetproject.Item.foods.material.Flour::new);
-    public static final RegistryObject<Item> EggLiquid = ITEMS.register("eggLiquid" , com.LJJStudios.cabinetproject.Item.foods.material.EggLiquid::new);
+    public static final RegistryObject<Item> EggLiquid = ITEMS.register("egg_liquid" , com.LJJStudios.cabinetproject.Item.foods.material.EggLiquid::new);
     public static final RegistryObject<Item> MilkPowder = ITEMS.register("milk_powder" , com.LJJStudios.cabinetproject.Item.foods.material.MilkPowder::new);
     public static final RegistryObject<Item> GranulatedSugar = ITEMS.register("granulated_sugar" , com.LJJStudios.cabinetproject.Item.foods.material.GranulatedSugar::new);
     public static final RegistryObject<Item> Salt = ITEMS.register("salt" , com.LJJStudios.cabinetproject.Item.foods.material.Salt::new);
