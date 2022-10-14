@@ -9,6 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.lwjgl.system.CallbackI;
 
 public class ItemRegisty {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
@@ -43,6 +44,29 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Potato = ITEMS.register("potato" , com.LJJStudios.cabinetproject.Item.foods.Potato::new);
     public static final RegistryObject<Item> CoalPowder = ITEMS.register("coal_powder", com.LJJStudios.cabinetproject.Item.foods.CoalPowder::new);
     public static final RegistryObject<Item> PotatoUbi = ITEMS.register("potato_ubi", com.LJJStudios.cabinetproject.Item.foods.PotatoUbi::new);
+    public static final RegistryObject<Item> Hamburger = ITEMS.register("hamburger" , com.LJJStudios.cabinetproject.Item.foods.Hamburger::new);
+    public static final RegistryObject<Item> PotatoFloss = ITEMS.register("potato_floss" , com.LJJStudios.cabinetproject.Item.foods.PotatoFloss::new);
+    public static final RegistryObject<Item> RussianBread = ITEMS.register("russian_bread" , com.LJJStudios.cabinetproject.Item.foods.RussianBread::new);
+    public static final RegistryObject<Item> RussianSausage = ITEMS.register("russian_sausage" , com.LJJStudios.cabinetproject.Item.foods.RussianSausage::new);
+    public static final RegistryObject<Item> PickledCucumber = ITEMS.register("pickled_cucumber" , com.LJJStudios.cabinetproject.Item.foods.PickledCucumber::new);
+    public static final RegistryObject<Item> Laoganma = ITEMS.register("laoganma" , com.LJJStudios.cabinetproject.Item.foods.Laoganma::new);
+    public static final RegistryObject<Item> ChiveFlower = ITEMS.register("chive_flower" , com.LJJStudios.cabinetproject.Item.foods.ChiveFlower::new);
+    public static final RegistryObject<Item> FermentedBeanCurd = ITEMS.register("fermented_bean_curd" , com.LJJStudios.cabinetproject.Item.foods.FermentedBeanCurd::new);
+    public static final RegistryObject<Item> BurgerEmbryo = ITEMS.register("burger_embryo" , com.LJJStudios.cabinetproject.Item.foods.BurgerEmbryo::new);
+    public static final RegistryObject<Item> Bread = ITEMS.register("bread" , com.LJJStudios.cabinetproject.Item.foods.Bread::new);
+    public static final RegistryObject<Item> Toufu = ITEMS.register("toufu" , com.LJJStudios.cabinetproject.Item.foods.Toufu::new);
+
+    public static final RegistryObject<Item> Flour = ITEMS.register("flour" , com.LJJStudios.cabinetproject.Item.foods.material.Flour::new);
+    public static final RegistryObject<Item> EggLiquid = ITEMS.register("eggLiquid" , com.LJJStudios.cabinetproject.Item.foods.material.EggLiquid::new);
+    public static final RegistryObject<Item> MilkPowder = ITEMS.register("milk_powder" , com.LJJStudios.cabinetproject.Item.foods.material.MilkPowder::new);
+    public static final RegistryObject<Item> GranulatedSugar = ITEMS.register("granulated_sugar" , com.LJJStudios.cabinetproject.Item.foods.material.GranulatedSugar::new);
+    public static final RegistryObject<Item> Salt = ITEMS.register("salt" , com.LJJStudios.cabinetproject.Item.foods.material.Salt::new);
+    public static final RegistryObject<Item> Butter = ITEMS.register("butter" , com.LJJStudios.cabinetproject.Item.foods.material.Butter::new);
+
+    public static final RegistryObject<Item> Spoon = ITEMS.register("spoon" , com.LJJStudios.cabinetproject.Item.foods.item.Spoon::new);
+    public static final RegistryObject<Item> Chopsticks = ITEMS.register("chopsticks", com.LJJStudios.cabinetproject.Item.foods.item.Chopsticks::new);
+    public static final RegistryObject<Item> Fork = ITEMS.register("fork", com.LJJStudios.cabinetproject.Item.foods.item.Fork::new);
+    public static final RegistryObject<Item> TableKnife = ITEMS.register("table_knife", com.LJJStudios.cabinetproject.Item.foods.item.TableKnife::new);
 
     public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);
@@ -53,4 +77,5 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Scissors = ITEMS.register("scissors", com.LJJStudios.cabinetproject.Item.tools.Scissors::new);
     public static final RegistryObject<Item> KitchenKnife = ITEMS.register("kitchen_knife", com.LJJStudios.cabinetproject.Item.tools.KitchenKnife::new);
     public static final RegistryObject<Item> Knife = ITEMS.register("knife", com.LJJStudios.cabinetproject.Item.tools.Knife::new);
+
 }

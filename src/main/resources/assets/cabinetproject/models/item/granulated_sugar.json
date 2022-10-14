@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cabinetproject:item/granulated_sugar_texture"
+  }
+}

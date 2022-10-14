@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cabinetproject:item/russian_bread_texture"
+  }
+}
