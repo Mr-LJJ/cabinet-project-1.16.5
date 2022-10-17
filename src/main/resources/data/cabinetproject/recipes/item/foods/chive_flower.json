@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "CCC",
+    "   "
+  ],
+  "key":
+  {
+    "C":
+    {
+      "item": "cabinetproject:chive"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:chive_flower",
+    "count": 1
+  }
+}

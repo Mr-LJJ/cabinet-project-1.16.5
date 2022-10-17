@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "TTT",
+    "   "
+  ],
+  "key":
+  {
+    "T":
+    {
+      "item": "cabinetproject:toufu"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:fermented_bean_curd",
+    "count": 1
+  }
+}

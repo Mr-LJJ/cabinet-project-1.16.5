@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cabinetproject:potato"
+    },
+    {
+      "item": "cabinetproject:kitchen_knife"
+    }
+  ],
+  "result": {
+    "item": "cabinetproject:potato_floss",
+    "count": 4
+  }
+}

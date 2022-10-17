@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    }
+    {
+      "item": "cabinetproject:small_hammer"
+    }
+  ],
+  "result": {
+    "item": "cabinetproject:granulated_sugar",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "FFF",
+    "   "
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "cabinetproject:flour"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:burger_embryo",
+    "count": 1
+  }
+}

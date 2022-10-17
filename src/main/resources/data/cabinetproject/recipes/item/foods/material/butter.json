@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "cabinetproject:salt"
+    }
+  ],
+  "result": {
+    "item": "cabinetproject:butter",
+    "count": 4
+  }
+}

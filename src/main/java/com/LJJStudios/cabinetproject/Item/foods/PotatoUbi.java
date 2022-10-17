@@ -9,7 +9,6 @@ public class PotatoUbi extends Item {
             .saturationMod(10)
             .nutrition(4)
             .build();
-
     public PotatoUbi() {
         super(new Item.Properties().food(food).tab(ModGroup.ITEM_GROUP));
     }

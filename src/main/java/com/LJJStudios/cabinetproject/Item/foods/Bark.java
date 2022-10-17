@@ -14,7 +14,9 @@ public class Bark extends Item {
             .nutrition(2)
             .effect(() -> new EffectInstance(Effects.POISON, 5 * 20, 1), 1)
             .effect(() -> new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 10 * 20, 1), 1)
+            .alwaysEat()
             .build();
+
     public Bark() {
         super(new Properties().food(food).tab(ModGroup.ITEM_GROUP));
     }

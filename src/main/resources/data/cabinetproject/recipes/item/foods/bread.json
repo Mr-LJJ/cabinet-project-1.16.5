@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " FF",
+    "   "
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "cabinetproject:flour"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:bread",
+    "count": 2
+  }
+}

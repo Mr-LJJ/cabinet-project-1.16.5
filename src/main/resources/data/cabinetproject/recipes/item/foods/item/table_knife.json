@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "SII",
+    "   "
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "cabinetproject:stick"
+    },
+    "I":
+    {
+      "item": "cabinetproject:pig_iron_ingot"
+    }
+
+  },
+  "result":
+  {
+    "item": "cabinetproject:table_knife",
+    "count": 1
+  }
+}

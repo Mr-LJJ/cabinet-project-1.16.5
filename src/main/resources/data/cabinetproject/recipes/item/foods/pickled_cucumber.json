@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " C ",
+    " C ",
+    " B "
+  ],
+  "key":
+  {
+    "T":
+    {
+      "item": "minecraft:bucket"
+    },
+    "C":
+    {
+      "item": "cabinetproject:pickled"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:pickled_cucumber",
+    "count": 1
+  }
+}
