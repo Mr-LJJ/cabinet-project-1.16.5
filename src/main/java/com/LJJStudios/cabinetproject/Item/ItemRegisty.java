@@ -56,6 +56,12 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Bread = ITEMS.register("bread" , com.LJJStudios.cabinetproject.Item.foods.Bread::new);
     public static final RegistryObject<Item> Toufu = ITEMS.register("toufu" , com.LJJStudios.cabinetproject.Item.foods.Toufu::new);
 
+    public static final RegistryObject<Item> Bean = ITEMS.register("bean" , com.LJJStudios.cabinetproject.Item.foods.plant.Bean::new);
+    public static final RegistryObject<Item> Tomato = ITEMS.register("tomato" , com.LJJStudios.cabinetproject.Item.foods.plant.Tomato::new);
+    public static final RegistryObject<Item> ChineseChives = ITEMS.register("chinese_chives" , com.LJJStudios.cabinetproject.Item.foods.plant.ChineseChives::new);
+    public static final RegistryObject<Item> SweetPotato = ITEMS.register("sweet_potato" , com.LJJStudios.cabinetproject.Item.foods.plant.SweetPotato::new);
+    public static final RegistryObject<Item> Cucumber = ITEMS.register("cucumber" , com.LJJStudios.cabinetproject.Item.foods.plant.Cucumber::new);
+
     public static final RegistryObject<Item> Flour = ITEMS.register("flour" , com.LJJStudios.cabinetproject.Item.foods.material.Flour::new);
     public static final RegistryObject<Item> EggLiquid = ITEMS.register("egg_liquid" , com.LJJStudios.cabinetproject.Item.foods.material.EggLiquid::new);
     public static final RegistryObject<Item> MilkPowder = ITEMS.register("milk_powder" , com.LJJStudios.cabinetproject.Item.foods.material.MilkPowder::new);

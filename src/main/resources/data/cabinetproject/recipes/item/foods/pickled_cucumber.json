@@ -4,7 +4,7 @@
   [
     " C ",
     " C ",
-    " B "
+    " T "
   ],
   "key":
   {
@@ -14,7 +14,7 @@
     },
     "C":
     {
-      "item": "cabinetproject:pickled"
+      "item": "cabinetproject:cucumber"
     }
   },
   "result":
