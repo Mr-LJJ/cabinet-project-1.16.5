@@ -3,6 +3,7 @@ package com.LJJStudios.cabinetproject.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
+
 public enum ItemTier implements IItemTier {
     CABINET(3,2000,10.0f,4.0f,30);
     private final int LevelIn;
