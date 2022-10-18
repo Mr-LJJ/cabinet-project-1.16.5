@@ -12,6 +12,6 @@ public class CabinetProjectGroup extends ItemGroup {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemRegisty.WoodIngot.get());
+        return new ItemStack(ItemRegisty.PigIronIngot.get());
     }
 }

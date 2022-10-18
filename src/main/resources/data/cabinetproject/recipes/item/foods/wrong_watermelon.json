@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "cabinetproject:magnet"
+    },
+    {
+      "item": "cabinetproject:electronic_scale"
+    }
+  ],
+  "result": {
+    "item": "cabinetproject:wrong_watermelon",
+    "count": 1
+  }
+}
