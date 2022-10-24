@@ -9,7 +9,6 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.lwjgl.system.CallbackI;
 
 public class ItemRegisty {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
@@ -63,6 +62,16 @@ public class ItemRegisty {
     public static final RegistryObject<Item> SweetPotato = ITEMS.register("sweet_potato" , com.LJJStudios.cabinetproject.Item.foods.plant.SweetPotato::new);
     public static final RegistryObject<Item> Cucumber = ITEMS.register("cucumber" , com.LJJStudios.cabinetproject.Item.foods.plant.Cucumber::new);
     public static final RegistryObject<Item> Lemon = ITEMS.register("lemon" , com.LJJStudios.cabinetproject.Item.foods.plant.Lemon::new);
+
+    public static final RegistryObject<Item> WheatBeer = ITEMS.register("wheat_beer" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.WheatBeer::new);
+    public static final RegistryObject<Item> ChineseLiquor = ITEMS.register("chinese_liquor" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.ChineseLiquor::new);
+    public static final RegistryObject<Item> Whisky = ITEMS.register("whisky" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.Whisky::new);
+    public static final RegistryObject<Item> BirdieVodka = ITEMS.register("birdie_vodka" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.vodka.BirdieVodka::new);
+    public static final RegistryObject<Item> CatLampVodka = ITEMS.register("cat_lamp_vodka" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.vodka.CatLampVodka::new);
+    public static final RegistryObject<Item> DeepWellVodka = ITEMS.register("deep_well_vodka" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.vodka.DeepWellVodka::new);
+    public static final RegistryObject<Item> Kvass = ITEMS.register("kvass" , com.LJJStudios.cabinetproject.Item.foods.drinks.Kvass::new);
+    public static final RegistryObject<Item> Pepsi = ITEMS.register("pepsi" , com.LJJStudios.cabinetproject.Item.foods.drinks.Pepsi::new);
+    public static final RegistryObject<Item> Coca = ITEMS.register("coca" , com.LJJStudios.cabinetproject.Item.foods.drinks.Coca::new);
 
     public static final RegistryObject<Item> Flour = ITEMS.register("flour" , com.LJJStudios.cabinetproject.Item.foods.material.Flour::new);
     public static final RegistryObject<Item> EggLiquid = ITEMS.register("egg_liquid" , com.LJJStudios.cabinetproject.Item.foods.material.EggLiquid::new);
