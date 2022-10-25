@@ -28,7 +28,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> ScrewNut = ITEMS.register("screw_nut" , ScrewNut::new);
     public static final RegistryObject<Item> Stick = ITEMS.register("stick", com.LJJStudios.cabinetproject.Item.Item.Stick::new);
     public static final RegistryObject<Item> IronRod = ITEMS.register("iron_rod", com.LJJStudios.cabinetproject.Item.Item.IronRod::new);
-
+    public static final RegistryObject<Item> Magnet = ITEMS.register("magnet" , com.LJJStudios.cabinetproject.Item.Item.Magnet::new);
 
     public static final RegistryObject<Item> CabinetBlock = ITEMS.register("cabinet_block", () -> new BlockItem(BlockRegistry.CabinetBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
     public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
