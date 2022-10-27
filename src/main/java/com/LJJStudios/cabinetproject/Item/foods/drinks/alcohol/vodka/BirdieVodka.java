@@ -10,7 +10,6 @@ public class BirdieVodka extends Item {
     private static final Food food = (new Food.Builder())
             .nutrition(2)
             .effect(() -> new EffectInstance(Effects.CONFUSION,10 * 20,1),1)
-            .
             .alwaysEat()
             .build();
     public BirdieVodka(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
