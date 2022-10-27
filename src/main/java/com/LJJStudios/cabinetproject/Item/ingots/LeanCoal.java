@@ -1,9 +1,16 @@
 package com.LJJStudios.cabinetproject.Item.ingots;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
+import net.minecraft.item.ItemStack;
 
-public class LeanCoal extends Item {
-    public LeanCoal(){ super(new Properties().tab(ModGroup.ITEM_GROUP))}
+public class LeanCoal extends Item{
+    private final int burnTicks;
+    public LeanCoal(Item.Properties properties,int burnTimeInTicks){
+        super(properties);
+        this.burnTicks = burnTimeInTicks;
+    }
+    @Override
+    public int getBurnTime(ItemStack itemStack) {
+        return this.burnTicks;
+    }
 }
