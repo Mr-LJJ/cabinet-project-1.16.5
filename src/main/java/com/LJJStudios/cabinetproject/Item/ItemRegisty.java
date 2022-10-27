@@ -3,6 +3,8 @@ package com.LJJStudios.cabinetproject.Item;
 import com.LJJStudios.cabinetproject.Block.BlockRegistry;
 import com.LJJStudios.cabinetproject.Group.ModGroup;
 import com.LJJStudios.cabinetproject.Item.Item.ScrewNut;
+import com.LJJStudios.cabinetproject.Item.ingots.FuelItem;
+import com.LJJStudios.cabinetproject.Item.ingots.LeanCoal;
 import com.LJJStudios.cabinetproject.Utils;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -13,13 +15,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemRegisty {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
     public static final RegistryObject<Item> WoodIngot = ITEMS.register("wood_ingot", com.LJJStudios.cabinetproject.Item.ingots.WoodIngot::new);
-    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", com.LJJStudios.cabinetproject.Item.ingots.LeanCoal::new);
     public static final RegistryObject<Item> ForgedIronIngot = ITEMS.register("forged_iron_ingot", com.LJJStudios.cabinetproject.Item.ingots.ForgedIronIngot::new);
     public static final RegistryObject<Item> RustyIronIngot = ITEMS.register("rusty_iron_ingot", com.LJJStudios.cabinetproject.Item.ingots.RustyIronIngot::new);
     public static final RegistryObject<Item> CopperIngot = ITEMS.register("copper_ingot" , com.LJJStudios.cabinetproject.Item.ingots.CopperIngot::new);
     public static final RegistryObject<Item> PigIronIngot = ITEMS.register("pig_iron_ingot" , com.LJJStudios.cabinetproject.Item.ingots.PigIronIngot::new);
     public static final RegistryObject<Item> StainlessSteelIngot = ITEMS.register("stainless_steel_ingot" , com.LJJStudios.cabinetproject.Item.ingots.StainlessSteelIngot::new);
-
+    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", () -> new LeanCoal(new Item.Properties().tab(ModGroup.ITEM_GROUP), 3200));
+    public static final RegistryObject<Item> FUEL = ITEMS.register("fuel", () -> new FuelItem(new Item.Properties().tab(ModGroup.ITEM_GROUP), 3200));
 
     public static final RegistryObject<Item> CopperRod = ITEMS.register("copper_rod" , com.LJJStudios.cabinetproject.Item.Item.CopperRod::new);
     public static final RegistryObject<Item> CopperScrew = ITEMS.register("copper_screw" , com.LJJStudios.cabinetproject.Item.Item.CopperScrew::new);
