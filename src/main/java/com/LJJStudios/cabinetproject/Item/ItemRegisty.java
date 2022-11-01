@@ -64,6 +64,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> SweetPotato = ITEMS.register("sweet_potato" , com.LJJStudios.cabinetproject.Item.foods.plant.SweetPotato::new);
     public static final RegistryObject<Item> Cucumber = ITEMS.register("cucumber" , com.LJJStudios.cabinetproject.Item.foods.plant.Cucumber::new);
     public static final RegistryObject<Item> Lemon = ITEMS.register("lemon" , com.LJJStudios.cabinetproject.Item.foods.plant.Lemon::new);
+    public static final RegistryObject<Item> Ginger = ITEMS.register("ginger" , com.LJJStudios.cabinetproject.Item.foods.plant.Ginger::new);
 
     public static final RegistryObject<Item> WheatBeer = ITEMS.register("wheat_beer" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.WheatBeer::new);
     public static final RegistryObject<Item> ChineseLiquor = ITEMS.register("chinese_liquor" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.ChineseLiquor::new);
