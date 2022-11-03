@@ -8,10 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class EggLiquid extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .effect(() -> new EffectInstance(Effects.CONFUSION,5 * 20,2),1)
-            .alwaysEat()
+            .hunger(2)
+            .effect(() -> new EffectInstance(Effects.NAUSEA,5 * 20,2),1)
+            .setAlwaysEdible()
             .build();
-    public EggLiquid(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public EggLiquid(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

@@ -4,5 +4,5 @@ import com.LJJStudios.cabinetproject.Group.ModGroup;
 import net.minecraft.item.Item;
 
 public class Coca extends Item {
-    public Coca(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Coca(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

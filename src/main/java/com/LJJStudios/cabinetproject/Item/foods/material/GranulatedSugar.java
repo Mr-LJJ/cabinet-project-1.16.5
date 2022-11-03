@@ -8,10 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class GranulatedSugar extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
+            .hunger(2)
             .effect(() -> new EffectInstance(Effects.LUCK,15 * 20,2),1)
-            .alwaysEat()
+            .setAlwaysEdible()
             .build();
-    public GranulatedSugar(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public GranulatedSugar(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

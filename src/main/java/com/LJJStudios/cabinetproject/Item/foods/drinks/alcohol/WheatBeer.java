@@ -8,9 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class WheatBeer extends Item {
     private static final Food food = (new Food.Builder())
-            .nutrition(2)
-            .effect(() -> new EffectInstance(Effects.CONFUSION,2 * 20,1),1)
-            .alwaysEat()
+            .hunger(2)
+            .effect(() -> new EffectInstance(Effects.NAUSEA,2 * 20,1),1)
+            .setAlwaysEdible()
             .build();
-    public WheatBeer(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public WheatBeer(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

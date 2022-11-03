@@ -20,8 +20,8 @@ public class ItemRegisty {
     public static final RegistryObject<Item> CopperIngot = ITEMS.register("copper_ingot" , com.LJJStudios.cabinetproject.Item.ingots.CopperIngot::new);
     public static final RegistryObject<Item> PigIronIngot = ITEMS.register("pig_iron_ingot" , com.LJJStudios.cabinetproject.Item.ingots.PigIronIngot::new);
     public static final RegistryObject<Item> StainlessSteelIngot = ITEMS.register("stainless_steel_ingot" , com.LJJStudios.cabinetproject.Item.ingots.StainlessSteelIngot::new);
-    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", () -> new LeanCoal(new Item.Properties().tab(ModGroup.ITEM_GROUP), 3200));
-    public static final RegistryObject<Item> FUEL = ITEMS.register("fuel", () -> new FuelItem(new Item.Properties().tab(ModGroup.ITEM_GROUP), 3200));
+    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", () -> new LeanCoal(new Item.Properties().group(ModGroup.ITEM_GROUP), 3200));
+    public static final RegistryObject<Item> FUEL = ITEMS.register("fuel", () -> new FuelItem(new Item.Properties().group(ModGroup.ITEM_GROUP), 3200));
 
     public static final RegistryObject<Item> CopperRod = ITEMS.register("copper_rod" , com.LJJStudios.cabinetproject.Item.Item.CopperRod::new);
     public static final RegistryObject<Item> CopperScrew = ITEMS.register("copper_screw" , com.LJJStudios.cabinetproject.Item.Item.CopperScrew::new);
@@ -35,8 +35,8 @@ public class ItemRegisty {
     public static final RegistryObject<Item> CabinetBlock = ITEMS.register("cabinet_block", () -> new BlockItem(BlockRegistry.CabinetBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
     public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
     public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> Wood = ITEMS.register("wood", () -> new BlockItem(BlockRegistry.Wood.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> Leaves = ITEMS.register("leaves", () -> new BlockItem(BlockRegistry.Leaves.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
+    public static final RegistryObject<Item> Wood = ITEMS.register("wood", () -> new BlockItem(BlockRegistry.Wood.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
+    public static final RegistryObject<Item> Leaves = ITEMS.register("leaves", () -> new BlockItem(BlockRegistry.Leaves.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
 
     public static final RegistryObject<Item> Bark = ITEMS.register("bark", com.LJJStudios.cabinetproject.Item.foods.Bark::new);
     public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", com.LJJStudios.cabinetproject.Item.foods.Sawdust::new);

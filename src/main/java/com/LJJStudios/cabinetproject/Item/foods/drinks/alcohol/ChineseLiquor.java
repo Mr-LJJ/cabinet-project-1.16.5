@@ -8,9 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class ChineseLiquor extends Item {
     private static final Food food = (new Food.Builder())
-            .nutrition(2)
-            .effect(() -> new EffectInstance(Effects.CONFUSION,5 * 20,1),1)
-            .alwaysEat()
+            .hunger(2)
+            .effect(() -> new EffectInstance(Effects.NAUSEA,5 * 20,1),1)
+            .setAlwaysEdible()
             .build();
-    public ChineseLiquor(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public ChineseLiquor(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

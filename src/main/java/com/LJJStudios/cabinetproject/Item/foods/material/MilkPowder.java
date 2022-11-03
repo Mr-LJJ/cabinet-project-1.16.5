@@ -8,10 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class MilkPowder extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
+            .hunger(1)
             .effect(() -> new EffectInstance(Effects.GLOWING,5 * 20,2),1)
-            .alwaysEat()
+            .setAlwaysEdible()
             .build();
-    public MilkPowder(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public MilkPowder(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

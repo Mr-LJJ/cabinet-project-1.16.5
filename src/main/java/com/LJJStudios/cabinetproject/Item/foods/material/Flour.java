@@ -8,10 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class Flour extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .effect(() -> new EffectInstance(Effects.MOVEMENT_SLOWDOWN,5 * 20,3),1)
-            .alwaysEat()
+            .hunger(1)
+            .effect(() -> new EffectInstance(Effects.SLOWNESS,5 * 20,3),1)
+            .setAlwaysEdible()
             .build();
-    public Flour(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Flour(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }
