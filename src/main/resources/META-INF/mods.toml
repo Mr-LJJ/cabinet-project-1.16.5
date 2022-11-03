@@ -21,7 +21,7 @@ modId="cabinetproject" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Cabinet Project" #mandatory
+displayName="Cabinet Project-v2" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -29,7 +29,7 @@ displayName="Cabinet Project" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="cabinetproject.png" #optional
 # A text field displayed in the mod UI
-credits="Kiroto,weiwei,lawkinho" #optional
+credits="Kiroto, Kilolo, weiwei, lawkinho" #optional
 # A text field displayed in the mod UI
 authors="LJJ Stuios开发组" #optional
 # The description text for the mod (multi line!) (#mandatory)

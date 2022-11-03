@@ -5,6 +5,6 @@ import net.minecraft.block.material.Material;
 
 public class Wood extends Block {
     public Wood(){
-        super(Properties.of(Material.WOOD).harvestLevel(1));
+        super(Properties.create(Material.WOOD).harvestLevel(1));
     }
 }

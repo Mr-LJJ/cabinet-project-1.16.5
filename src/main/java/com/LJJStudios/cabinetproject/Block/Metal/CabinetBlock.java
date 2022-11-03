@@ -5,6 +5,6 @@ import net.minecraft.block.material.Material;
 
 public class CabinetBlock extends Block {
     public CabinetBlock(){
-        super(Properties.of(Material.STONE).harvestLevel(3));
+        super(Properties.create(Material.ROCK).harvestLevel(3));
     }
 }
