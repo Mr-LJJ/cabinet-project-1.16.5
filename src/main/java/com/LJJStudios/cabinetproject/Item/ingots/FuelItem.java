@@ -3,9 +3,11 @@ package com.LJJStudios.cabinetproject.Item.ingots;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class LeanCoal extends Item{
+import javax.annotation.Nullable;
+
+public class FuelItem extends Item {
     private final int burnTicks;
-    public LeanCoal(Item.Properties properties,int burnTimeInTicks){
+    public FuelItem(Item.Properties properties, int burnTimeInTicks) {
         super(properties);
         this.burnTicks = burnTimeInTicks;
     }

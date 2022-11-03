@@ -17,6 +17,7 @@
   "item.cabinetproject.iron_screw": "铁螺丝",
   "item.cabinetproject.copper_screw": "铜螺丝",
   "item.cabinetproject.screw_nut": "螺母",
+  "item.cabinetproject.magnet": "吸铁石",
 
   "block.cabinetproject.cabinet_block":"柜子方块",
   "block.cabinetproject.forged_iron_block":"锻造铁锭块",
@@ -72,6 +73,7 @@
   "item.cabinetproject.chopsticks": "筷子",
   "item.cabinetproject.fork": "叉子",
   "item.cabinetproject.table_knife": "餐刀",
+  "item.cabinetproject.bowl": "碗",
 
   "item.cabinetproject.small_hammer":"小锤子",
   "item.cabinetproject.iron_saw":"锯子",
