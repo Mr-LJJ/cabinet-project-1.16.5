@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "I I",
+    "I I",
+    "III"
+  ],
+  "key":
+  {
+    "I":
+    {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":
+  {
+    "item": "cabinetproject:glass_bottle",
+    "count": 1
+  }
+}

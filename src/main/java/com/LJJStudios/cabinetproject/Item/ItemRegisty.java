@@ -87,6 +87,8 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Chopsticks = ITEMS.register("chopsticks", com.LJJStudios.cabinetproject.Item.foods.item.Chopsticks::new);
     public static final RegistryObject<Item> Fork = ITEMS.register("fork", com.LJJStudios.cabinetproject.Item.foods.item.Fork::new);
     public static final RegistryObject<Item> TableKnife = ITEMS.register("table_knife", com.LJJStudios.cabinetproject.Item.foods.item.TableKnife::new);
+    public static final RegistryObject<Item> TinCan = ITEMS.register("tin_can" , com.LJJStudios.cabinetproject.Item.foods.item.TinCan::new);
+    public static final RegistryObject<Item> GlassBottle = ITEMS.register("glass_bottle" , com.LJJStudios.cabinetproject.Item.foods.item.GlassBottle::new);
 
     public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);

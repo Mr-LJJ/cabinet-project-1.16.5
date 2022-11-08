@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "cabinetproject:granulated_sugar",
+      "count": 2
+    },
+    {
+      "item": "cabinetproject:tin_can"
+    }
+  ],
+  "result": {
+    "item": "cabinetproject:pepsi",
+    "count": 1
+  }
+}
