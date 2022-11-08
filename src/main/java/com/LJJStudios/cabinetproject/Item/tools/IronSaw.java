@@ -7,5 +7,5 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SwordItem;
 
 public class IronSaw extends SwordItem {
-    public IronSaw(){ super(ItemTier.CABINET,5,3f,new Properties().tab(ModGroup.ITEM_GROUP));}
+    public IronSaw(){ super(ItemTier.CABINET,5,3f,new Properties().group(ModGroup.ITEM_GROUP));}
 }

@@ -8,8 +8,8 @@ import net.minecraft.potion.Effects;
 
 public class Bread extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(2)
+            .hunger(10)
+            .saturation(1)
             .build();
-    public Bread(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Bread(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

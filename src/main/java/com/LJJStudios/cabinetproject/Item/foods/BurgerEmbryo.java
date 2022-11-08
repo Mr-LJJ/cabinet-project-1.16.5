@@ -6,8 +6,8 @@ import net.minecraft.item.Item;
 
 public class BurgerEmbryo extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(2)
+            .hunger(10)
+            .saturation(1)
             .build();
-    public BurgerEmbryo(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public BurgerEmbryo(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

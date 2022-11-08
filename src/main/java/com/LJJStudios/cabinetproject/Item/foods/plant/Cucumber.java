@@ -6,9 +6,9 @@ import net.minecraft.item.Item;
 
 public class Cucumber extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .alwaysEat()
+            .hunger(10)
+            .saturation(1)
+            .setAlwaysEdible()
             .build();
-    public Cucumber(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Cucumber(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

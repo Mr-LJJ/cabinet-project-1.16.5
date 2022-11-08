@@ -5,5 +5,5 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
 public class Stick extends Item {
-    public Stick(){ super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Stick(){ super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

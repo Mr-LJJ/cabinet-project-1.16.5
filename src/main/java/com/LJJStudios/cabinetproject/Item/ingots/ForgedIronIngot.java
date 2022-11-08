@@ -5,5 +5,5 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
 public class ForgedIronIngot extends Item {
-    public ForgedIronIngot(){ super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public ForgedIronIngot(){ super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

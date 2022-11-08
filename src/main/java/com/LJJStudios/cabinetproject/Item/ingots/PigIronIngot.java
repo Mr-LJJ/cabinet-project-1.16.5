@@ -4,5 +4,5 @@ import com.LJJStudios.cabinetproject.Group.ModGroup;
 import net.minecraft.item.Item;
 
 public class PigIronIngot extends Item {
-    public PigIronIngot(){ super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public PigIronIngot(){ super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

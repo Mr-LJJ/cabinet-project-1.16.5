@@ -8,9 +8,10 @@ import net.minecraft.potion.Effects;
 
 public class SweetPotato extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .effect(() -> new EffectInstance(Effects.DAMAGE_BOOST,5 * 20 , 1),1)
+            .hunger(10)
+            .saturation(1)
+            .setAlwaysEdible()
+            .effect(() -> new EffectInstance(Effects.INSTANT_DAMAGE,5 * 20 , 1),1)
             .build();
-    public SweetPotato(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public SweetPotato(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

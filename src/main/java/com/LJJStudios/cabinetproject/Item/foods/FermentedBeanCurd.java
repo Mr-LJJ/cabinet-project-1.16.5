@@ -8,11 +8,11 @@ import net.minecraft.potion.Effects;
 
 public class FermentedBeanCurd extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .effect(() -> new EffectInstance(Effects.CONFUSION,20 * 20 , 1),1)
+            .hunger(10)
+            .saturation(1)
+            .effect(() -> new EffectInstance(Effects.NAUSEA,20 * 20 , 1),1)
             .effect(() -> new EffectInstance(Effects.INVISIBILITY,5 * 20 , 1),1)
-            .alwaysEat()
+            .setAlwaysEdible()
             .build();
-    public FermentedBeanCurd(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public FermentedBeanCurd(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

@@ -8,10 +8,10 @@ import net.minecraft.potion.Effects;
 
 public class ChiveFlower extends Item {
     private static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .effect(() -> new EffectInstance(Effects.CONFUSION,5 * 20 , 1),1)
-            .alwaysEat()
+            .hunger(10)
+            .saturation(1)
+            .effect(() -> new EffectInstance(Effects.NAUSEA,5 * 20 , 1),1)
+            .setAlwaysEdible()
             .build();
-    public ChiveFlower(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public ChiveFlower(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

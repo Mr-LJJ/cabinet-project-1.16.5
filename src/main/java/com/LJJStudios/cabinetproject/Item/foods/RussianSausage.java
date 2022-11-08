@@ -8,9 +8,9 @@ import net.minecraft.potion.Effects;
 
 public class RussianSausage extends Item {
     public static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(2)
-            .effect(() -> new EffectInstance(Effects.DAMAGE_BOOST,10 * 20,1),1)
+            .hunger(10)
+            .saturation(1)
+            .effect(() -> new EffectInstance(Effects.JUMP_BOOST,10 * 20,1),1)
             .build();
-    public RussianSausage(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public RussianSausage(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

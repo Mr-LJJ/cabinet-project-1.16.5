@@ -7,6 +7,6 @@ import net.minecraft.item.ItemGroup;
 
 public class WoodIngot extends Item {
     public WoodIngot(){
-        super(new Properties().tab(ModGroup.ITEM_GROUP));
+        super(new Properties().group(ModGroup.ITEM_GROUP));
     }
 }

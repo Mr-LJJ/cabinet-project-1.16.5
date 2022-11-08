@@ -5,5 +5,5 @@ import com.LJJStudios.cabinetproject.Item.ItemTier;
 import net.minecraft.item.SwordItem;
 
 public class Crowbar extends SwordItem {
-    public Crowbar(){ super(ItemTier.CABINET,7,2.4f,new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Crowbar(){ super(ItemTier.CABINET,7,2.4f,new Properties().group(ModGroup.ITEM_GROUP));}
 }

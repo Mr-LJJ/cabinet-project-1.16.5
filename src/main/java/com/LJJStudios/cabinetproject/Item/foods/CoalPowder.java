@@ -9,12 +9,12 @@ import net.minecraft.potion.Effects;
 
 public class CoalPowder extends Item{
     public static final Food food = (new Food.Builder())
-            .saturationMod(10)
-            .nutrition(1)
-            .effect(() -> new EffectInstance(Effects.HEAL , 5 * 20, 1), 1)
+            .hunger(10)
+            .saturation(1)
+            .effect(() -> new EffectInstance(Effects.INSTANT_HEALTH , 5 * 20, 1), 1)
             .build();
 
     public CoalPowder() {
-        super(new Item.Properties().food(food).tab(ModGroup.ITEM_GROUP));
+        super(new Item.Properties().food(food).group(ModGroup.ITEM_GROUP));
     }
 }

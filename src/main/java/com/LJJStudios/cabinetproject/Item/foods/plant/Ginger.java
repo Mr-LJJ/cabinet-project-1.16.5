@@ -8,10 +8,10 @@ import net.minecraft.potion.Effects;
 
 public class Ginger extends Item {
     private static final Food food = (new Food.Builder())
-            .nutrition(2)
-            .saturationMod(2)
+            .hunger(10)
+            .saturation(1)
+            .setAlwaysEdible()
             .effect(() ->  new EffectInstance(Effects.FIRE_RESISTANCE,5 * 20,1),1)
-            .alwaysEat()
             .build();
-    public Ginger(){super(new Properties().tab(ModGroup.ITEM_GROUP));}
+    public Ginger(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }
