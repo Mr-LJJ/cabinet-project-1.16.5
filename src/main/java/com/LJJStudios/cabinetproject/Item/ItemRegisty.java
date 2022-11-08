@@ -32,9 +32,9 @@ public class ItemRegisty {
     public static final RegistryObject<Item> IronRod = ITEMS.register("iron_rod", com.LJJStudios.cabinetproject.Item.Item.IronRod::new);
     public static final RegistryObject<Item> Magnet = ITEMS.register("magnet" , com.LJJStudios.cabinetproject.Item.Item.Magnet::new);
 
-    public static final RegistryObject<Item> CabinetBlock = ITEMS.register("cabinet_block", () -> new BlockItem(BlockRegistry.CabinetBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().tab(ModGroup.ITEM_GROUP)));
+    public static final RegistryObject<Item> CabinetBlock = ITEMS.register("cabinet_block", () -> new BlockItem(BlockRegistry.CabinetBlock.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
+    public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
+    public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
     public static final RegistryObject<Item> Wood = ITEMS.register("wood", () -> new BlockItem(BlockRegistry.Wood.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
     public static final RegistryObject<Item> Leaves = ITEMS.register("leaves", () -> new BlockItem(BlockRegistry.Leaves.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
 
