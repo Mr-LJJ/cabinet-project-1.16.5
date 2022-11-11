@@ -65,6 +65,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Cucumber = ITEMS.register("cucumber" , com.LJJStudios.cabinetproject.Item.foods.plant.Cucumber::new);
     public static final RegistryObject<Item> Lemon = ITEMS.register("lemon" , com.LJJStudios.cabinetproject.Item.foods.plant.Lemon::new);
     public static final RegistryObject<Item> Ginger = ITEMS.register("ginger" , com.LJJStudios.cabinetproject.Item.foods.plant.Ginger::new);
+    public static final RegistryObject<Item> Garlic = ITEMS.register("garlic" , com.LJJStudios.cabinetproject.Item.foods.plant.Garlic::new);
 
     public static final RegistryObject<Item> WheatBeer = ITEMS.register("wheat_beer" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.WheatBeer::new);
     public static final RegistryObject<Item> ChineseLiquor = ITEMS.register("chinese_liquor" , com.LJJStudios.cabinetproject.Item.foods.drinks.alcohol.ChineseLiquor::new);
@@ -89,6 +90,8 @@ public class ItemRegisty {
     public static final RegistryObject<Item> TableKnife = ITEMS.register("table_knife", com.LJJStudios.cabinetproject.Item.foods.item.TableKnife::new);
     public static final RegistryObject<Item> TinCan = ITEMS.register("tin_can" , com.LJJStudios.cabinetproject.Item.foods.item.TinCan::new);
     public static final RegistryObject<Item> GlassBottle = ITEMS.register("glass_bottle" , com.LJJStudios.cabinetproject.Item.foods.item.GlassBottle::new);
+    public static final RegistryObject<Item> Bowl = ITEMS.register("bowl" , com.LJJStudios.cabinetproject.Item.foods.item.Bowl::new);
+    public static final RegistryObject<Item> Dish = ITEMS.register("dish" , com.LJJStudios.cabinetproject.Item.foods.item.Dish::new);
 
     public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.cabinetproject.Item.tools.SmallHammer::new);
     public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.cabinetproject.Item.tools.IronSaw::new);

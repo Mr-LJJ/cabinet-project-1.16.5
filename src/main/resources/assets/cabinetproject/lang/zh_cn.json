@@ -2,6 +2,7 @@
   "itemGroup.cabinet_project_group": "柜子工程",
 
   "item.cabinetproject.wood_ingot":"木锭",
+  "item.cabinetproject.fuel": "燃料",
   "item.cabinetproject.rusty_iron_ingot":"生锈铁锭",
   "item.cabinetproject.lean_coal":"贫煤",
   "item.cabinetproject.forged_iron_ingot":"钢铁锭",
@@ -58,6 +59,8 @@
   "item.cabinetproject.cucumber": "黄瓜",
   "item.cabinetproject.lemon": "柠檬",
   "item.cabinetproject.wrong_watermelon": "不对劲的西瓜",
+  "item.cabinetproject.ginger": "姜",
+  "item.cabinetporject.garlic": "蒜头",
 
   "item.cabinetproject.wheat_beer": "小麦啤酒",
   "item.cabinetproject.chinese_liquor": "茅台",
@@ -74,6 +77,7 @@
   "item.cabinetproject.fork": "叉子",
   "item.cabinetproject.table_knife": "餐刀",
   "item.cabinetproject.bowl": "碗",
+  "item.cabinetproject.dish": "碟",
   "item.cabinetproject.tin_can": "空锡罐",
   "item.cabinetproject.glass_bottle": "玻璃瓶",
 
