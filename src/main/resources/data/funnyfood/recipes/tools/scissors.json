@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "I I",
+    " I ",
+    "S S"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "funnyfood:stick"
+    },
+    "I":
+    {
+      "item": "funnyfood:pig_iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:scissors",
+    "count": 1
+  }
+}

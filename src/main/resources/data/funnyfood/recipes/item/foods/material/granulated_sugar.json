@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "funnyfood:small_hammer"
+    }
+  ],
+  "result": {
+    "item": "funnyfood:granulated_sugar",
+    "count": 1
+  }
+}

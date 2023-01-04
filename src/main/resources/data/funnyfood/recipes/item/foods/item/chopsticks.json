@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "S S",
+    "S S",
+    "S S"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "funnyfood:stick"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:chopsticks",
+    "count": 1
+  }
+}

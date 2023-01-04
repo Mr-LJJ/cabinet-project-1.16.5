@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "funnyfood:forged_iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:forged_iron_block",
+    "count": 1
+  }
+}

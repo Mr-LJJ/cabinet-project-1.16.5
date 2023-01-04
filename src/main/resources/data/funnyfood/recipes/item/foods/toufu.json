@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " F ",
+    "   "
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "funnyfood:bean"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:toufu",
+    "count": 2
+  }
+}

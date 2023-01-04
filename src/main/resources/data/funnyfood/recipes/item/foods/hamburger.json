@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " B ",
+    "CFL",
+    " B "
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "funnyfood:burger_embryo"
+    },
+    "C":
+    {
+      "item": "funnyfood:chive_flower"
+    },
+    "F":
+    {
+      "item": "funnyfood:fermented_bean_curd"
+    },
+    "L":
+    {
+      "item": "funnyfood:laoganma"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:hamburger",
+    "count": 1
+  }
+}

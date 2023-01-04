@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "funnyfood:potato"
+    },
+    {
+      "item": "funnyfood:kitchen_knife"
+    }
+  ],
+  "result": {
+    "item": "funnyfood:potato_floss",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potato_ubi",
+      "count": 2
+    },
+    {
+      "item": "funnyfood:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "funnyfood:cat_lamp_vodka",
+    "count": 1
+  }
+}

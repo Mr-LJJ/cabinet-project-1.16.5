@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " C ",
+    " C ",
+    " T "
+  ],
+  "key":
+  {
+    "T":
+    {
+      "item": "minecraft:bucket"
+    },
+    "C":
+    {
+      "item": "funnyfood:cucumber"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:pickled_cucumber",
+    "count": 1
+  }
+}

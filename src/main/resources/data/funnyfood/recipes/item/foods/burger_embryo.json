@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "FFF",
+    "   "
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "funnyfood:flour"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:burger_embryo",
+    "count": 1
+  }
+}

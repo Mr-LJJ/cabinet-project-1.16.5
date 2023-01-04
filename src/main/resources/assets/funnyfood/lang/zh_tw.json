@@ -1,0 +1,23 @@
+{
+  "itemGroup.funny_food_group": "櫃子工程",
+  "block.funnyfood.funny_block":"櫃子方塊",
+  "item.funnyfood.wood_ingot":"木錠",
+  "item.funnyfood.lean_coal":"貧煤",
+  "item.funnyfood.rusty_iron_ingot":"生鏽鐵錠",
+  "item.funnyfood.forged_iron_ingot":"鍛造鐵錠",
+  "item.funnyfood.stick":"木棒",
+  "item.funnyfood.iron_rod": "鐵棒",
+  "block.funnyfood.forged_iron_block":"鍛造鐵錠塊",
+  "block.funnyfood.rusty_iron_block":"生鏽鐵錠塊",
+  "block.funnyfood.wood":"木塊",
+  "item.funnyfood.bark":"樹皮",
+  "item.funnyfood.moss":"苔蘚",
+  "item.funnyfood.sawdust":"木屑",
+  "item.funnyfood.coal_powder":"煤炭粉末",
+  "item.funnyfood.small_hammer":"小錘子",
+  "item.funnyfood.iron_saw":"鋸子",
+  "item.funnyfood.screw_driver":"螺絲刀",
+  "item.funnyfood.wrench":"扳手",
+  "item.funnyfood.poison_apple":"毒苹果",
+  "item.funnyfood.potato":"薯片"
+}

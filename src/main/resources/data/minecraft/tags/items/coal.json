@@ -2,9 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:coal",
-    "cabinetproject:coal",
+    "funnyfood:coal",
     {
-      "id": "cabinetproject:coal",
+      "id": "funnyfood:coal",
       "required": false
     }
   ]

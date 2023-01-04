@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "III",
+    " I ",
+    "I  "
+  ],
+  "key":
+  {
+    "I":
+    {
+      "item": "funnyfood:forged_iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:wrench",
+    "count": 1
+  }
+}

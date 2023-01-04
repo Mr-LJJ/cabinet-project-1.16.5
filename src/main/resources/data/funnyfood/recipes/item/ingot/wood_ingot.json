@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " S ",
+    " W "
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "funnyfood:iron_saw"
+    },
+    "W":
+    {
+      "item": "funnyfood:wood"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:wood_ingot",
+    "count": 2
+  }
+}

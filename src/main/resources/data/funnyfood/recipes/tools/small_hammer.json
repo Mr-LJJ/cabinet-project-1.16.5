@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "III",
+    "ISI",
+    " S "
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "funnyfood:stick"
+    },
+    "I":
+    {
+      "item": "funnyfood:forged_iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:small_hammer",
+    "count": 1
+  }
+}

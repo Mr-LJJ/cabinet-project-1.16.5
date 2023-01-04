@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " H ",
+    " C "
+  ],
+  "key":
+  {
+    "H":
+    {
+      "item": "funnyfood:small_hammer"
+    },
+    "C":
+    {
+      "item": "funnyfood:lean_coal"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:coal_powder",
+    "count": 9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " C ",
+    " C ",
+    " B "
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "minecraft:bucket"
+    },
+    "C":
+    {
+      "item": "funnyfood:chili"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:laoganma",
+    "count": 1
+  }
+}

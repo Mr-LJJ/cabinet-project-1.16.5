@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:milk_buket"
-  },
-  "result": "cabinetproject:milk_powder",
-  "experience": 1.0,
-  "cookingtime": 100
-}

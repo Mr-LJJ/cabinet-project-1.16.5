@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "TTT",
+    "   "
+  ],
+  "key":
+  {
+    "T":
+    {
+      "item": "funnyfood:toufu"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:fermented_bean_curd",
+    "count": 1
+  }
+}

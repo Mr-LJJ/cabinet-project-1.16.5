@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat",
+      "count": "3"
+    },
+    {
+      "item": "funnyfood:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "funnyfood:whisky",
+    "count": 1
+  }
+}

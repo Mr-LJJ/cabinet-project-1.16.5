@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "funnyfood:funny_block"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "funnyfood:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

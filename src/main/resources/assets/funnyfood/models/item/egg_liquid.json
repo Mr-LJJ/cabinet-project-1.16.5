@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "funnyfood:item/egg_liquid_texture"
+  }
+}

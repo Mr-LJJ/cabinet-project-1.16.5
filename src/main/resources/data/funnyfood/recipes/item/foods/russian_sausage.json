@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " FF",
+    " V "
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "funnyfood:flour"
+    },
+    "V":
+    {
+      "item": "funnyfood:vodka"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:russian_sausage",
+    "count": 2
+  }
+}

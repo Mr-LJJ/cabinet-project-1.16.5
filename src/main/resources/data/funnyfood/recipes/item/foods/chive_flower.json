@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "CCC",
+    "   "
+  ],
+  "key":
+  {
+    "C":
+    {
+      "item": "funnyfood:chinese_chive"
+    }
+  },
+  "result":
+  {
+    "item": "funnyfood:chive_flower",
+    "count": 1
+  }
+}

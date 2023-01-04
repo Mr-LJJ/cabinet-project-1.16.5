@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "funnyfood:item/deep_well_vodka_texture"
+  }
+}
