@@ -10,11 +10,11 @@
   {
     "H":
     {
-      "item": "funnyfood:small_hammer"
+      "item": "rankine:stone_hammer"
     },
     "C":
     {
-      "item": "funnyfood:lean_coal"
+      "item": "minecraft:coal"
     }
   },
   "result":

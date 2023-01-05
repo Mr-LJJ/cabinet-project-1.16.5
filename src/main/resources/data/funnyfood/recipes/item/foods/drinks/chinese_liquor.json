@@ -6,7 +6,11 @@
       "count": 4
     },
     {
-      "item": "funnyfood:glass_bottle"
+      "item": "minecraft:gold_ingot",
+      "count": 4
+    },
+    {
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {

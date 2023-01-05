@@ -1,43 +1,14 @@
 package com.LJJStudios.funnyfood.Item;
 
-import com.LJJStudios.funnyfood.Block.BlockRegistry;
-import com.LJJStudios.funnyfood.Group.ModGroup;
-import com.LJJStudios.funnyfood.Item.Item.ScrewNut;
-import com.LJJStudios.funnyfood.Item.ingots.FuelItem;
-import com.LJJStudios.funnyfood.Item.ingots.LeanCoal;
 import com.LJJStudios.funnyfood.Utils;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemRegisty {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MOD_ID);
-    public static final RegistryObject<Item> WoodIngot = ITEMS.register("wood_ingot", com.LJJStudios.funnyfood.Item.ingots.WoodIngot::new);
-    public static final RegistryObject<Item> ForgedIronIngot = ITEMS.register("forged_iron_ingot", com.LJJStudios.funnyfood.Item.ingots.ForgedIronIngot::new);
-    public static final RegistryObject<Item> RustyIronIngot = ITEMS.register("rusty_iron_ingot", com.LJJStudios.funnyfood.Item.ingots.RustyIronIngot::new);
-    public static final RegistryObject<Item> CopperIngot = ITEMS.register("copper_ingot" , com.LJJStudios.funnyfood.Item.ingots.CopperIngot::new);
-    public static final RegistryObject<Item> PigIronIngot = ITEMS.register("pig_iron_ingot" , com.LJJStudios.funnyfood.Item.ingots.PigIronIngot::new);
-    public static final RegistryObject<Item> StainlessSteelIngot = ITEMS.register("stainless_steel_ingot" , com.LJJStudios.funnyfood.Item.ingots.StainlessSteelIngot::new);
-    public static final RegistryObject<Item> LeanCoal = ITEMS.register("lean_coal", () -> new LeanCoal(new Item.Properties().group(ModGroup.ITEM_GROUP), 3200));
-    public static final RegistryObject<Item> FUEL = ITEMS.register("fuel", () -> new FuelItem(new Item.Properties().group(ModGroup.ITEM_GROUP), 3200));
-
-    public static final RegistryObject<Item> CopperRod = ITEMS.register("copper_rod" , com.LJJStudios.funnyfood.Item.Item.CopperRod::new);
-    public static final RegistryObject<Item> CopperScrew = ITEMS.register("copper_screw" , com.LJJStudios.funnyfood.Item.Item.CopperScrew::new);
-    public static final RegistryObject<Item> ExpansionScrew = ITEMS.register("expansion_screw" , com.LJJStudios.funnyfood.Item.Item.ExpansionScrew::new);
-    public static final RegistryObject<Item> IronScrew = ITEMS.register("iron_screw" , com.LJJStudios.funnyfood.Item.Item.IronScrew::new);
-    public static final RegistryObject<Item> ScrewNut = ITEMS.register("screw_nut" , ScrewNut::new);
-    public static final RegistryObject<Item> Stick = ITEMS.register("stick", com.LJJStudios.funnyfood.Item.Item.Stick::new);
-    public static final RegistryObject<Item> IronRod = ITEMS.register("iron_rod", com.LJJStudios.funnyfood.Item.Item.IronRod::new);
-    public static final RegistryObject<Item> Magnet = ITEMS.register("magnet" , com.LJJStudios.funnyfood.Item.Item.Magnet::new);
-
-    public static final RegistryObject<Item> FunnyBlock = ITEMS.register("funny_block", () -> new BlockItem(BlockRegistry.FunnyBlock.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> ForgedIronBlock = ITEMS.register("forged_iron_block", () -> new BlockItem(BlockRegistry.ForgedIronBlock.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> RustyIronBlock = ITEMS.register("rusty_iron_block", () -> new BlockItem(BlockRegistry.RustyIronBlock.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> Wood = ITEMS.register("wood", () -> new BlockItem(BlockRegistry.Wood.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
-    public static final RegistryObject<Item> Leaves = ITEMS.register("leaves", () -> new BlockItem(BlockRegistry.Leaves.get(), new Item.Properties().group(ModGroup.ITEM_GROUP)));
-
     public static final RegistryObject<Item> Bark = ITEMS.register("bark", com.LJJStudios.funnyfood.Item.foods.Bark::new);
     public static final RegistryObject<Item> Sawdust = ITEMS.register("sawdust", com.LJJStudios.funnyfood.Item.foods.Sawdust::new);
     public static final RegistryObject<Item> Moss = ITEMS.register("moss", com.LJJStudios.funnyfood.Item.foods.Moss::new);
@@ -76,6 +47,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Kvass = ITEMS.register("kvass" , com.LJJStudios.funnyfood.Item.foods.drinks.Kvass::new);
     public static final RegistryObject<Item> Pepsi = ITEMS.register("pepsi" , com.LJJStudios.funnyfood.Item.foods.drinks.Pepsi::new);
     public static final RegistryObject<Item> Coca = ITEMS.register("coca" , com.LJJStudios.funnyfood.Item.foods.drinks.Coca::new);
+    public static final RegistryObject<Item> SodaWater = ITEMS.register("soda_water" , com.LJJStudios.funnyfood.Item.foods.drinks.SodaWater::new);
 
     public static final RegistryObject<Item> Flour = ITEMS.register("flour" , com.LJJStudios.funnyfood.Item.foods.material.Flour::new);
     public static final RegistryObject<Item> EggLiquid = ITEMS.register("egg_liquid" , com.LJJStudios.funnyfood.Item.foods.material.EggLiquid::new);
@@ -83,24 +55,6 @@ public class ItemRegisty {
     public static final RegistryObject<Item> GranulatedSugar = ITEMS.register("granulated_sugar" , com.LJJStudios.funnyfood.Item.foods.material.GranulatedSugar::new);
     public static final RegistryObject<Item> Salt = ITEMS.register("salt" , com.LJJStudios.funnyfood.Item.foods.material.Salt::new);
     public static final RegistryObject<Item> Butter = ITEMS.register("butter" , com.LJJStudios.funnyfood.Item.foods.material.Butter::new);
-
-    public static final RegistryObject<Item> Spoon = ITEMS.register("spoon" , com.LJJStudios.funnyfood.Item.foods.item.Spoon::new);
-    public static final RegistryObject<Item> Chopsticks = ITEMS.register("chopsticks", com.LJJStudios.funnyfood.Item.foods.item.Chopsticks::new);
-    public static final RegistryObject<Item> Fork = ITEMS.register("fork", com.LJJStudios.funnyfood.Item.foods.item.Fork::new);
-    public static final RegistryObject<Item> TableKnife = ITEMS.register("table_knife", com.LJJStudios.funnyfood.Item.foods.item.TableKnife::new);
-    public static final RegistryObject<Item> TinCan = ITEMS.register("tin_can" , com.LJJStudios.funnyfood.Item.foods.item.TinCan::new);
-    public static final RegistryObject<Item> GlassBottle = ITEMS.register("glass_bottle" , com.LJJStudios.funnyfood.Item.foods.item.GlassBottle::new);
-    public static final RegistryObject<Item> Bowl = ITEMS.register("bowl" , com.LJJStudios.funnyfood.Item.foods.item.Bowl::new);
-    public static final RegistryObject<Item> Dish = ITEMS.register("dish" , com.LJJStudios.funnyfood.Item.foods.item.Dish::new);
-
-    public static final RegistryObject<Item> SmallHammer = ITEMS.register("small_hammer", com.LJJStudios.funnyfood.Item.tools.SmallHammer::new);
-    public static final RegistryObject<Item> IronSaw = ITEMS.register("iron_saw", com.LJJStudios.funnyfood.Item.tools.IronSaw::new);
-    public static final RegistryObject<Item> ScrewDriver = ITEMS.register("screw_driver", com.LJJStudios.funnyfood.Item.tools.ScrewDriver::new);
-    public static final RegistryObject<Item> Wrench = ITEMS.register("wrench", com.LJJStudios.funnyfood.Item.tools.Wrench::new);
-    public static final RegistryObject<Item> Crowbar = ITEMS.register("crowbar", com.LJJStudios.funnyfood.Item.tools.Crowbar::new);
-    public static final RegistryObject<Item> Pliers = ITEMS.register("pliers", com.LJJStudios.funnyfood.Item.tools.Pliers::new);
-    public static final RegistryObject<Item> Scissors = ITEMS.register("scissors", com.LJJStudios.funnyfood.Item.tools.Scissors::new);
-    public static final RegistryObject<Item> KitchenKnife = ITEMS.register("kitchen_knife", com.LJJStudios.funnyfood.Item.tools.KitchenKnife::new);
-    public static final RegistryObject<Item> Knife = ITEMS.register("knife", com.LJJStudios.funnyfood.Item.tools.Knife::new);
+    public static final RegistryObject<Item> Soda = ITEMS.register("soda" , com.LJJStudios.funnyfood.Item.foods.material.Soda::new);
 
 }

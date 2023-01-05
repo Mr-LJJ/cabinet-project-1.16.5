@@ -5,7 +5,7 @@ import net.minecraft.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ItemTier implements IItemTier {
-    CABINET(3,2000,10.0F,4.0F,30,() -> Ingredient.fromItems(ItemRegisty.PigIronIngot.get()));
+    FUNNY(3,2000,10.0F,4.0F,30,() -> Ingredient.fromItems(ItemRegisty.PotatoUbi.get()));
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
@@ -47,7 +47,7 @@ public enum ItemTier implements IItemTier {
 
     @Override
     public Ingredient getRepairMaterial() {
-        return Ingredient.fromItems(ItemRegisty.PigIronIngot.get());
+        return Ingredient.fromItems(ItemRegisty.PotatoUbi.get());
     }
 
 }

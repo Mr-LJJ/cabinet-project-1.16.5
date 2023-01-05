@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "funnyfood:granulated_sugar",
+      "item": "funnyfood:soda",
       "count": 2
     },
     {
@@ -10,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "funnyfood:pepsi",
+    "item": "funnyfood:soda_water",
     "count": 1
   }
 }

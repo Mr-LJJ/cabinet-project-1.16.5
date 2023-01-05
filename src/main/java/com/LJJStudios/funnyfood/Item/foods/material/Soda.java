@@ -1,4 +1,4 @@
-package com.LJJStudios.funnyfood.Item.foods.drinks;
+package com.LJJStudios.funnyfood.Item.foods.material;
 
 import com.LJJStudios.funnyfood.Group.ModGroup;
 import net.minecraft.item.Food;
@@ -6,10 +6,11 @@ import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
-public class Coca extends Item {
+public class Soda extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(2)
+            .hunger(1)
+            .effect(() -> new EffectInstance(Effects.SATURATION,5 * 20,2),1)
             .setAlwaysEdible()
             .build();
-    public Coca(){super(new Properties().group(ModGroup.ITEM_GROUP));}
+    public Soda(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

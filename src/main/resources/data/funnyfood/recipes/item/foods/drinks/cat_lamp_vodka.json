@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:potato_ubi",
+      "item": "funnyfood:potato",
       "count": 2
     },
     {
-      "item": "funnyfood:glass_bottle"
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {

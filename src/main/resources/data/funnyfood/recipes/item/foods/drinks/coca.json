@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass",
+      "item": "minecraft:grass"
     },
     {
-      "item": "funnyfood:granulated_sugar",
+      "item": "funnyfood:granulated_sugar"
     },
     {
-      "item": "funnyfood:tin_can"
+      "item": "watersource:wooden_cup"
     }
   ],
   "result": {
-    "item": "funnyfood:coca,
+    "item": "funnyfood:coca",
     "count": 1
   }
 }

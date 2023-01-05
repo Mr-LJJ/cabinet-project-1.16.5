@@ -12,6 +12,6 @@ public class FunnyFoodGroup extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(ItemRegisty.PigIronIngot.get());
+        return new ItemStack(ItemRegisty.PotatoUbi.get());
     }
 }

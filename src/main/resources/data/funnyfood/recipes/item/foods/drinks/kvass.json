@@ -1,1 +1,21 @@
 
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:granulated_sugar",
+      "count": 1
+    },
+    {
+      "item": "funnyfood:russian_bread",
+      "count": 2
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "funnyfood:kvass",
+    "count": 1
+  }
+}

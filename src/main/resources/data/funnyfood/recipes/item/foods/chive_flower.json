@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "   ",
+    "C C",
     "CCC",
     "   "
   ],
@@ -10,7 +10,7 @@
   {
     "C":
     {
-      "item": "funnyfood:chinese_chive"
+      "item": "minecraft:wheat"
     }
   },
   "result":
