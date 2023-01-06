@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "   ",
-    " FF",
-    "   "
-  ],
-  "key":
-  {
-    "F":
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
-      "item": "funnyfood:flour"
+      "item": "funnyfood:flour",
+      "count": "2"
     }
-  },
-  "result":
-  {
+  ],
+  "result": {
     "item": "funnyfood:bread",
     "count": 2
   }

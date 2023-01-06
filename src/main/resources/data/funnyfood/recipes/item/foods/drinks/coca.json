@@ -2,13 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass"
-    },
-    {
       "item": "funnyfood:granulated_sugar"
     },
     {
-      "item": "watersource:wooden_cup"
+      "item": "minecraft:potion"
     }
   ],
   "result": {

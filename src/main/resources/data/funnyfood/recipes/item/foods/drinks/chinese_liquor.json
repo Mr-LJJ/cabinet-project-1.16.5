@@ -3,14 +3,10 @@
   "ingredients": [
     {
       "item": "minecraft:wheat",
-      "count": 4
+      "count": 16
     },
     {
-      "item": "minecraft:gold_ingot",
-      "count": 4
-    },
-    {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:potion"
     }
   ],
   "result": {
