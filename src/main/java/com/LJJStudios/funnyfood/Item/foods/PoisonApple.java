@@ -11,6 +11,7 @@ public class PoisonApple extends Item{
             .hunger(10)
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.POISON, 5 * 20, 1), 1)
+            .setAlwaysEdible()
             .build();
 
     public PoisonApple() {

@@ -12,6 +12,7 @@ public class Sawdust extends Item{
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.POISON, 5 * 20, 1), 1)
             .effect(() -> new EffectInstance(Effects.WITHER, 10 * 20, 1), 1)
+            .setAlwaysEdible()
             .build();
 
     public Sawdust() {

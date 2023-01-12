@@ -11,6 +11,7 @@ public class CoalPowder extends Item{
             .hunger(10)
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.INSTANT_HEALTH , 5 * 20, 1), 1)
+            .setAlwaysEdible()
             .build();
 
     public CoalPowder() {

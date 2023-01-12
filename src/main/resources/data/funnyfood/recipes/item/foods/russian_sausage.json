@@ -1,25 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "   ",
-    " FF",
-    " V "
-  ],
-  "key":
-  {
-    "F":
+  "type": "minecraft:crafting_shapless",
+  "ingredients": [
     {
-      "item": "funnyfood:flour"
+      "item": "funnyfood:granulated_sugar",
+      "count": 2
     },
-    "V":
     {
-      "item": "funnyfood:vodka"
+      "item": "minecraft:potion{potion:water}"
     }
-  },
-  "result":
-  {
+  ],
+  "result": {
     "item": "funnyfood:russian_sausage",
-    "count": 2
+    "count": 1
   }
 }
