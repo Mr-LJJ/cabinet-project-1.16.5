@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "WWW",
+    "WSW",
     "WBW",
     "WWW"
   ],
@@ -11,6 +11,10 @@
     "W":
     {
       "item": "funnyfood:granulated_sugar"
+    },
+    "S":
+    {
+      "item": "funnyfood:soda"
     },
     "B":
     {

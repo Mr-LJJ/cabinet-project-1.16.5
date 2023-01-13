@@ -7,11 +7,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(Utils.MOD_ID)
 public class funnyfood {
-
     public funnyfood() {
         IEventBus eventBus= FMLJavaModLoadingContext.get().getModEventBus();
         ItemRegisty.ITEMS.register(eventBus);
         BlockRegistry.BLOCKS.register(eventBus);
-
     }
 }
