@@ -1,15 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat",
-      "count": 16
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "WGW",
+    "WBW",
+    "WWW"
   ],
-  "result": {
+  "key":
+  {
+    "W":
+    {
+      "item": "minecraft:wheat"
+    },
+    "B":
+    {
+      "item": "minecraft:water_bucket"
+    },
+    "G":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
     "item": "funnyfood:chinese_liquor",
     "count": 1
   }

@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    " C ",
-    " C ",
-    " B "
+    "   ",
+    "CCC",
+    "CBC"
   ],
   "key":
   {
     "B":
     {
-      "item": "minecraft:bucket"
+      "item": "minecraft:water_bucket"
     },
     "C":
     {
-      "item": "crockpot:peppers"
+      "item": "funnyfood:chili"
     }
   },
   "result":

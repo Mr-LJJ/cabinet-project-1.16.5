@@ -3,12 +3,6 @@
   "ingredients": [
     {
       "item": "minecraft:melon_slice"
-    },
-    {
-      "item": "funnyfood:magnet"
-    },
-    {
-      "item": "funnyfood:electronic_scale"
     }
   ],
   "result": {

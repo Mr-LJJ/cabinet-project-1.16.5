@@ -6,8 +6,9 @@ import net.minecraft.item.Item;
 
 public class Toufu extends Item {
     public static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(1)
             .saturation(1)
+            .setAlwaysEdible()
             .build();
     public Toufu(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

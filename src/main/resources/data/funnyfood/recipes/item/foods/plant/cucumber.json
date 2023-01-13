@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:sea_pickle"
     }
   ],
   "result": {
-    "item": "funnyfood:bark",
+    "item": "funnyfood:cucumber",
     "count": 1
   }
 }

@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "   ",
-    " FF",
-    " V "
+    " C ",
+    "FFF",
+    "   "
   ],
   "key":
   {
@@ -12,14 +12,14 @@
     {
       "item": "funnyfood:flour"
     },
-    "V":
+    "C":
     {
-      "item": "funnyfood:vodka"
+      "item": "funnyfood:cat_lamp_vodka"
     }
   },
   "result":
   {
     "item": "funnyfood:russian_bread",
-    "count": 2
+    "count": 3
   }
 }

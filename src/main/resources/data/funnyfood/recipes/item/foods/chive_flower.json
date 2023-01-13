@@ -2,15 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "C C",
     "CCC",
+    "CBC",
     "   "
   ],
   "key":
   {
     "C":
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:chinese_chives"
+    },
+    "B":
+    {
+      "item": "minecraft:bucket"
     }
   },
   "result":

@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class PotatoUbi extends Item {
     public static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(1)
             .saturation(1)
             .build();
     public PotatoUbi() {

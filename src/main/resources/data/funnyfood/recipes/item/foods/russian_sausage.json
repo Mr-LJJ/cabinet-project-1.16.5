@@ -2,11 +2,10 @@
   "type": "minecraft:crafting_shapless",
   "ingredients": [
     {
-      "item": "funnyfood:granulated_sugar",
-      "count": 2
+      "item": "funnyfood:soda"
     },
     {
-      "item": "minecraft:potion{potion:water}"
+      "item": "minecraft:porkchop"
     }
   ],
   "result": {

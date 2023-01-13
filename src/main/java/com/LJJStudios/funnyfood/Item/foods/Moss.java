@@ -8,7 +8,7 @@ import net.minecraft.potion.Effects;
 
 public class Moss extends Item{
     public static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(1)
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.POISON, 5 * 20, 1), 1)
             .effect(() -> new EffectInstance(Effects.BLINDNESS, 10 * 20, 1), 1)

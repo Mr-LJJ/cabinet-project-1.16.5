@@ -1,16 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "funnyfood:granulated_sugar",
-      "count": 2
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "WWW",
+    "WBW",
+    "WWW"
   ],
-  "result": {
-    "item": "funnyfood:pepsi",
-    "count": 1
-  }
+  "key":
+  {
+    "W":
+    {
+      "item": "funnyfood:granulated_sugar"
+    },
+    "B":
+    {
+      "item": "minecraft:water_bucket"
+    }
+},
+"result":
+{
+"item": "funnyfood:pepsi",
+"count": 1
+}
 }

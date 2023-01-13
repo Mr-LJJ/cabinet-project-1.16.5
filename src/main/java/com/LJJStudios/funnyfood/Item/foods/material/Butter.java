@@ -8,7 +8,7 @@ import net.minecraft.potion.Effects;
 
 public class Butter extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(2)
+            .hunger(1)
             .effect(() -> new EffectInstance(Effects.LUCK,30 * 20,2),1)
             .setAlwaysEdible()
             .build();

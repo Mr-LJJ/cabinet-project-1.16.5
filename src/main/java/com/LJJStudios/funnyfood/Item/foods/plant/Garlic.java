@@ -9,7 +9,7 @@ import net.minecraft.potion.Effects;
 public class Garlic extends Item {
     public static Food foods = new Food.Builder()
             .effect(() -> new EffectInstance(Effects.NAUSEA,5 * 20,1),1)
-            .saturation(2)
+            .saturation(1)
             .hunger(1)
             .setAlwaysEdible()
             .build();

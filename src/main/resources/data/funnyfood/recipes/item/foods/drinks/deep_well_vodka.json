@@ -2,11 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "funnyfood:potato",
-      "count": 3
+      "item": "funnyfood:potato"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "funnyfood:cat_lamp_vodka"
     }
   ],
   "result": {

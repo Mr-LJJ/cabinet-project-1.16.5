@@ -8,7 +8,7 @@ import net.minecraft.potion.Effects;
 
 public class RussianBread extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(3)
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.JUMP_BOOST,20 * 20 , 2),1)
             .effect(() -> new EffectInstance(Effects.INSTANT_DAMAGE,20 * 20 , 2),1)

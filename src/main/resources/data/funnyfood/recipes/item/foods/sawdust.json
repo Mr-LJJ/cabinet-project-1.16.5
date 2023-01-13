@@ -10,7 +10,7 @@
   {
     "S":
     {
-      "item": "funnyfood:iron_saw"
+      "item": "minecraft:iron_axe"
     },
     "W":
     {
@@ -20,6 +20,6 @@
   "result":
   {
     "item": "funnyfood:sawdust",
-    "count": 9
+    "count": 18
   }
 }

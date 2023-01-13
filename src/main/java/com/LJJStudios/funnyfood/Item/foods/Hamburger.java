@@ -17,6 +17,7 @@ public class Hamburger extends Item {
             .effect(() -> new EffectInstance(Effects.HEALTH_BOOST,10 * 20 , 3),1)
             .effect(() -> new EffectInstance(Effects.SPEED,30 * 20 , 3),1)
             .effect(() -> new EffectInstance(Effects.WATER_BREATHING,30 * 20 , 1),1)
+            .setAlwaysEdible()
             .build();
     public Hamburger(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

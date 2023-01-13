@@ -8,10 +8,10 @@ import net.minecraft.potion.Effects;
 
 public class Lemon extends Item {
     private final static Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(1)
             .saturation(1)
-            .setAlwaysEdible()
             .effect(() -> new EffectInstance(Effects.NAUSEA,5 * 20,1),1)
+            .setAlwaysEdible()
             .build();
     public Lemon(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

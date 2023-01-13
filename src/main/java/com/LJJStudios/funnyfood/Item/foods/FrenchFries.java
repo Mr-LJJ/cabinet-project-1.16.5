@@ -4,11 +4,11 @@ import com.LJJStudios.funnyfood.Group.ModGroup;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 
-public class Bread extends Item {
-    private static final Food food = (new Food.Builder())
-            .hunger(1)
+public class FrenchFries extends Item{
+    public static final Food food = (new Food.Builder())
+            .hunger(3)
             .saturation(1)
             .setAlwaysEdible()
             .build();
-    public Bread(){super(new Properties().group(ModGroup.ITEM_GROUP));}
+    public FrenchFries(){super(new Properties().group(ModGroup.ITEM_GROUP));}
 }

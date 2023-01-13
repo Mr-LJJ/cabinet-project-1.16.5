@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:seagrass"
+  },
+  "result": "funnyfood:moss",
+  "experience": 1.0,
+  "cookingtime": 100
+}

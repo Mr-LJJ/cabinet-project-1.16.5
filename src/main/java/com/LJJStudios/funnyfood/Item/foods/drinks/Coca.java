@@ -11,20 +11,10 @@ import net.minecraft.potion.Effects;
 import net.minecraft.world.World;
 
 public class Coca extends Item {
-    private static final Food food = (new Food.Builder())
-            .hunger(2)
-            .setAlwaysEdible()
-            .build();
     public Coca(){
-        super(new Properties().group(ModGroup.ITEM_GROUP));
-    }
-    @Override
-    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, LivingEntity entityLiving) {
-        if (entityLiving instanceof PlayerEntity) {
-            PlayerEntity player = (PlayerEntity) entityLiving;
-            player.heal(2.0F);
-            player.getFoodStats().addStats(10,0.5F);
-        }
-        return super.onItemUseFinish(stack,worldIn,entityLiving);
+        super(new Properties().group(ModGroup.ITEM_GROUP)
+                .maxStackSize(1)
+                .food(new Food.Builder().hunger(6).saturation(1.2f).setAlwaysEdible().build())
+        );
     }
 }

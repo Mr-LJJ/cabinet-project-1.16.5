@@ -28,6 +28,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Bread = ITEMS.register("bread" , com.LJJStudios.funnyfood.Item.foods.Bread::new);
     public static final RegistryObject<Item> Toufu = ITEMS.register("toufu" , com.LJJStudios.funnyfood.Item.foods.Toufu::new);
     public static final RegistryObject<Item> WrongWatermelon = ITEMS.register("wrong_watermelon" , com.LJJStudios.funnyfood.Item.foods.WrongWatermelon::new);
+    public static final RegistryObject<Item> FrenchFries = ITEMS.register("french_fries" , com.LJJStudios.funnyfood.Item.foods.FrenchFries::new);
 
     public static final RegistryObject<Item> Bean = ITEMS.register("bean" , com.LJJStudios.funnyfood.Item.foods.plant.Bean::new);
     public static final RegistryObject<Item> Tomato = ITEMS.register("tomato" , com.LJJStudios.funnyfood.Item.foods.plant.Tomato::new);
@@ -37,6 +38,7 @@ public class ItemRegisty {
     public static final RegistryObject<Item> Lemon = ITEMS.register("lemon" , com.LJJStudios.funnyfood.Item.foods.plant.Lemon::new);
     public static final RegistryObject<Item> Ginger = ITEMS.register("ginger" , com.LJJStudios.funnyfood.Item.foods.plant.Ginger::new);
     public static final RegistryObject<Item> Garlic = ITEMS.register("garlic" , com.LJJStudios.funnyfood.Item.foods.plant.Garlic::new);
+    public static final RegistryObject<Item> Chili = ITEMS.register("chili" , com.LJJStudios.funnyfood.Item.foods.plant.Chili::new);
 
     public static final RegistryObject<Item> WheatBeer = ITEMS.register("wheat_beer" , com.LJJStudios.funnyfood.Item.foods.drinks.alcohol.WheatBeer::new);
     public static final RegistryObject<Item> ChineseLiquor = ITEMS.register("chinese_liquor" , com.LJJStudios.funnyfood.Item.foods.drinks.alcohol.ChineseLiquor::new);

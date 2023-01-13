@@ -1,15 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat",
-      "count": "3"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "WWW",
+    "GBG",
+    "WWW"
   ],
-  "result": {
+  "key":
+  {
+    "W":
+    {
+      "item": "minecraft:wheat"
+    },
+    "G":
+    {
+      "item": "funnyfood:granulated_sugar"
+    },
+    "B":
+    {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result":
+  {
     "item": "funnyfood:whisky",
     "count": 1
   }

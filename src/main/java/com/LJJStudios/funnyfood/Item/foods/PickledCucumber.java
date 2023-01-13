@@ -8,7 +8,7 @@ import net.minecraft.potion.Effects;
 
 public class PickledCucumber extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(2)
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.HUNGER,5 * 20 , 1),1)
             .setAlwaysEdible()

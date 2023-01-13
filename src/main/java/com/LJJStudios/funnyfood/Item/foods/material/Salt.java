@@ -8,7 +8,7 @@ import net.minecraft.potion.Effects;
 
 public class Salt extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(2)
+            .hunger(1)
             .effect(() -> new EffectInstance(Effects.SATURATION,5 * 20,2),1)
             .setAlwaysEdible()
             .build();

@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class PotatoFloss extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(1)
             .saturation(1)
             .setAlwaysEdible()
             .build();

@@ -11,16 +11,11 @@ import net.minecraft.potion.Effects;
 import net.minecraft.world.World;
 
 public class BirdieVodka extends Item {
-    public BirdieVodka(){
-        super(new Properties().group(ModGroup.ITEM_GROUP));
-    }
-    @Override
-    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, LivingEntity entityLiving) {
-        if (entityLiving instanceof PlayerEntity) {
-            PlayerEntity player = (PlayerEntity) entityLiving;
-            player.heal(2.0F);
-            player.getFoodStats().addStats(10,0.5F);
-        }
-        return super.onItemUseFinish(stack,worldIn,entityLiving);
+    public BirdieVodka() {
+        super(new Properties()
+                .group(ModGroup.ITEM_GROUP)
+                .maxStackSize(1)
+                .food(new Food.Builder().hunger(8).saturation(1.2f).effect(() -> new EffectInstance(Effects.INSTANT_DAMAGE,30*20,5),1).effect(() -> new EffectInstance(Effects.BLINDNESS,10*20,5),1).setAlwaysEdible().build())
+        );
     }
 }

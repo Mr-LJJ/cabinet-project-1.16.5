@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:cocoa_beans"
     }
   ],
   "result": {
-    "item": "funnyfood:bark",
+    "item": "funnyfood:bean",
     "count": 1
   }
 }

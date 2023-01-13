@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:water_bucket"
+    "item": "minecraft:glass"
   },
-  "result": "funnyfood:salt",
+  "result": "funnyfood:soda",
   "experience": 1.0,
   "cookingtime": 100
 }

@@ -4,13 +4,17 @@
   [
     "   ",
     "TTT",
-    "   "
+    "TBT"
   ],
   "key":
   {
     "T":
     {
       "item": "funnyfood:toufu"
+    },
+    "B":
+    {
+      "item": "minecraft:water_bucket"
     }
   },
   "result":

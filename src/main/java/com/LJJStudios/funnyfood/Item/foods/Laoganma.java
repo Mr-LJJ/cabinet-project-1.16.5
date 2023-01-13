@@ -8,7 +8,7 @@ import net.minecraft.potion.Effects;
 
 public class Laoganma extends Item {
     private static final Food food = (new Food.Builder())
-            .hunger(10)
+            .hunger(2)
             .saturation(1)
             .effect(() -> new EffectInstance(Effects.INSTANT_DAMAGE,20 * 20 , 2),1)
             .setAlwaysEdible()
