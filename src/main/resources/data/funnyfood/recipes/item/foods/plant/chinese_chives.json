@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:kelp"
     }
   ],
   "result": {
-    "item": "funnyfood:cucumber",
+    "item": "funnyfood:chinese_chives",
     "count": 1
   }
 }

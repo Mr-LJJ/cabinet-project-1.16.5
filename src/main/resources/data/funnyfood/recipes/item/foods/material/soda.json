@@ -4,6 +4,7 @@
     "item": "minecraft:glass"
   },
   "result": "funnyfood:soda",
+  "count": "9",
   "experience": 1.0,
   "cookingtime": 100
 }

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:granulated_sugar",
+      "item": "funnyfood:granulated_sugar",
       "count": 1
     },
     {
@@ -10,7 +10,7 @@
       "count": 1
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

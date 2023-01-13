@@ -4,6 +4,7 @@
     "item": "minecraft:water_bucket"
   },
   "result": "funnyfood:salt",
+  "count": "9",
   "experience": 1.0,
   "cookingtime": 100
 }
