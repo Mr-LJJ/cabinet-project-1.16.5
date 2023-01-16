@@ -12,7 +12,7 @@ public class SodaWater extends Item {
     public SodaWater(){
         super(new Properties().group(ModGroup.ITEM_GROUP)
                 .maxStackSize(1)
-                .food(new Food.Builder().hunger(6).saturation(1.2f).setAlwaysEdible().build())
+                .food(new Food.Builder().hunger(2).saturation(1.2f).setAlwaysEdible().build())
         );
     }
 }
