@@ -4,17 +4,13 @@
   [
     "   ",
     " S ",
-    " W "
+    " S "
   ],
   "key":
   {
     "S":
     {
-      "item": "minecraft:iron_axe"
-    },
-    "W":
-    {
-      "item": "funnyfood:wood_ingot"
+      "item": "minecraft:stick"
     }
   },
   "result":

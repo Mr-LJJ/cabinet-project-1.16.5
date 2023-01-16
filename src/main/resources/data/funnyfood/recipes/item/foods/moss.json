@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:kelp"
+    "item": "minecraft:lily_pad"
   },
   "result": "funnyfood:moss",
+  "count": "4",
   "experience": 1.0,
   "cookingtime": 100
 }
